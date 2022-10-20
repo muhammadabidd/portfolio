@@ -1,0 +1,12 @@
+.hero{
+    height : 100vh;
+    width : 100%;
+    max-height: 100vh;
+    /* background-color: white; */
+}
+
+.text-hero {
+    max-width: 500px;
+}
+
+

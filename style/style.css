@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Calibre';
+    font-style: normal;
+    box-sizing: border-box;
+    letter-spacing: 0.25px;
+    /* scroll-behavior: smooth; */
+}
+
+body {
+    background-color: #0A192F;
+    color: #8892B0;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0 10% 0 10%;
+    }
+
+
+.content{
+    position: relative;
+    max-width: 1000px ;
+    margin: auto;
+}
+
+
+/* SECTION */
+.header {
+    margin-top:  0;
+    padding: 0;
+}
+
+
+.hero {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.content-hero {
+    width: 100%;
+
+}
+
+.content-experience, .content-project {
+    margin-top: 200px;
+}
+    
+
+
+
+

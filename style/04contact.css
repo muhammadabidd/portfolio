@@ -1,0 +1,22 @@
+h1.contact {
+    text-align: center;
+    
+}
+
+.text-contact {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact-button {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.content-contact {
+    max-width: 700px;
+    margin-top: 200px;
+}
+

@@ -1,0 +1,104 @@
+.text-pendek1 {
+    font-family: 'SF Mono';
+    font-style: light;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 154%;
+    color: #62F9D5;
+}
+
+.text-panjang {
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 125%;
+    margin-top: 40px;
+    color: #8892B0;
+}
+
+h1{
+    font-weight: 600;
+    font-size: clamp(40px,8vw,60px);
+    line-height: 127%;
+    /* or 76px */
+    font-feature-settings: 'liga' off;
+    color: #CCD6F6;
+    margin-top: 15px ;
+}
+
+h2{
+    color: #8892B0;
+    font-weight: 600;
+    font-size: clamp(40px,8vw,60px);
+    line-height: 127%;
+    /* or 76px */
+    font-feature-settings: 'liga' off;
+    line-height: 1;
+    margin-top: 0;
+}
+
+h3{
+    font-family: 'SF Mono';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 127%;
+    /* or 30px */
+    font-feature-settings: 'liga' off;
+    color: #CCD6F6;
+}
+
+h4 {
+    margin-top: 20px;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 115%;
+    font-feature-settings: 'liga' off;
+    color: #CCD6F6;
+}
+
+
+
+
+
+span.green {
+    color: #62F9D5;
+}
+
+span.yellow {
+    color: #B79855;
+}
+
+
+
+/* EXPERIENCE SECTION */
+p.time {
+    font-family: 'SF Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 175%;
+    color: #8892B0;
+}
+
+ul.jobdesk {
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+a, a:visited, a:link{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+@media (max-width : 560px ){
+    .text-panjang{
+        font-size: 16px;
+        letter-spacing: 0.8px;
+    }
+}

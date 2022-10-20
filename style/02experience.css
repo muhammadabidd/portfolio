@@ -1,0 +1,126 @@
+/* BIG SCREEN */
+@media (max-width: 2000px ){
+
+    /* Style the tab */
+    .tab {
+        float: left;
+        border-left: 1px solid #ccd6f63d;
+        width: 20%;
+        height: auto;
+        margin-top: 25px;
+    }
+    
+    /* Style the buttons that are used to open the tab content */
+    .tab button {
+        display: block;
+        text-align: left;
+        transition: 0.3s;
+        width: 100%;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        margin-top: 20px;
+        margin-left: 20px;
+        float: left;
+        padding: 0px 12px;
+        width: 70%;
+        border-left: none;
+}
+}
+
+
+/* SMALL SCREEN */
+@media (max-width: 600px ){
+
+
+
+    /* Style the tab */
+    .tab {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+        
+    
+    /* Style the buttons that are used to open the tab content */
+    .tab button {
+        display: block;
+        text-align: center;
+        transition: 0.3s;
+        width: 100%;
+    }
+    
+    /* Style the tab content */
+    .tabcontent {
+        display: block;
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 0px 12px;
+        width: 100%;
+    }
+}
+        
+    
+
+
+
+
+
+
+.tab button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'SF Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    border-radius: 0;
+}
+
+
+
+
+
+p.time {
+    margin-top: 15px;
+}
+
+ul.jobdesk {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+ul.jobdesk li {
+    margin-top: 5px;
+    list-style-position: outside;
+}
+
+span.list {
+    position: relative;
+    left: 8px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background: #112240;
+  color: #62F9D5;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+background: #112240;
+border-left: 1px solid #62F9D5;
+color: #62F9D5;
+transition: 0.4s;
+}
+
+.clear {
+    clear: left;
+}
+
+
+

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Abid</title>
+    
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/card.css">
+    <link rel="stylesheet" href="style/button.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/list.css">
+    <link rel="stylesheet" href="style/text.css">
+    <link rel="stylesheet" href="style/00hero.css">
+    <link rel="stylesheet" href="style/01about.css">
+    <link rel="stylesheet" href="style/02experience.css">
+    <link rel="stylesheet" href="style/04contact.css">
+    <link rel="stylesheet" href="style/05footer.css">
+    </head>
+<body>
+
+    <!--HERO START-->
+    <div class="header section">
+        <nav>
+            <img src="img/Logo.png" alt="" class="logo">
+            <ul>
+                <li><a class="heading-list" href="#about">01. About</a></li>
+                <li><a class="heading-list" href="#experience">02. Experience</a></li>
+                <li><a class="heading-list" href="#project">03. Project</a></li>
+                <li><a class="heading-list" href="#contact">04. Contact</a></li>
+            </ul>
+            <button class="mainbutton button">Blog</button>
+        </nav>
+    </div>
+    <div class="hero section" id="hero">
+        <div class="content content-hero">
+            <p class="text-pendek1">Hi, My name is</p>
+            <h1 class="">Muhammad Abid;</h1>
+            <h2 class=""> I Love to learn, teach, and inspect data</h2>
+            
+            <div class="text-hero">
+                <p class="text-panjang hero-text">I am an educator specializing in <span class="green">mathematics education</span> 
+                    both synchronous and asynchronous approaches. 
+                    Besides my interest in education, I also have deep interest in 
+                    <span class="green">data analytics</span> and <span class="green">machine learning</span> which can help others 
+                    to make the right decisions, data-driven decisions.
+                </p>
+            </div>
+
+            <button class="button hero-button">Say Hi</button>
+        </div>
+    </div>
+    <!--HERO END-->
+
+
+    <!--ABOUT START-->
+    <div class="about-section section" id="about">
+        <div class="content ">
+            <h3>01. About Me</h>
+            <div class="pemerataan">
+                <div class="left-about">
+                    <p class="text-panjang text-about">Hello!! My name is Abid. Graduated and qualified as a bachelor of mathematics education makes me love both teaching and math. 
+                        As an educator I have been teaching for several school such as <span class="green">Sekolah Indonesia Jeddah</span>, Saudi Arabia and also some private school and tutoring agency in Jawa Barat, Indonesia. I also made  mathematics learning video in <span class="green">Roboguru</span>  which is part of <span class="green">Ruangguru.</span>
+                        As a mathematician who also have big interest in processing data, recently I expanded my skill set on <span class="green">data analytics</span> and <span class="green">machine learning</span>. Here are a few technologies I’ve been working with recently:
+                    </p>
+                    <ul class="about_outside">
+                        <ul class="about">
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Swagger-UI API</li>
+                            <li>HTML</li>
+                        </ul>
+            
+                        <ul class="about_second">
+                            <li>Wordpress</li>
+                            <li>Github</li>
+                            <li>Notion</li>
+                            <li>Visual Studio Code</li>
+                        </ul>    
+                    </ul>
+                </div>
+                <img class="potrait" src="img/Me.png" alt="">
+            </div>
+        </div>     
+    </div>
+    <!--ABOUT END-->
+
+
+
+    <!--EXPERIENCE START-->
+    <div class="experience-section section"  id="experience">
+        <div class="content content-experience">
+            <div class="sub">
+                <h3>02. Where I’ve Worked</h>
+            </div>
+
+            <div class="isi">
+                <div class="tab">
+                    <button class="tablinks" onclick="openExperience(event, 'RAS')" id="defaultOpen">Rumah Amal Salman</button>
+                    <button class="tablinks" onclick="openExperience(event, 'Ruangguru')">Ruangguru</button>
+                    <button class="tablinks" onclick="openExperience(event, 'Tentor')">Tentor Indonesia</button>
+                    <button class="tablinks" onclick="openExperience(event, 'SIJ')">Indonesian School of Jeddah</button>
+                    <button class="tablinks" onclick="openExperience(event, 'UPI')">Indonesia University of Education</button>
+                </div>
+                
+                <div id="RAS" class="tabcontent">
+                    <h4>Head of Imam Muda Salman Scholarship <span class="green">@ Rumah Amal Salman</span></h4>
+                    <p class="time">Jan 2022 - May 2022</p>
+                    <ul class="jobdesk ">
+                        <li><span class="list text-panjang" > Manage the grand design of the scholarship</span></li>
+                        <li><span class='list text-panjang' > Lead and manage routine activity of the scholarship</span></li>
+                            
+                        <li><span class="list text-panjang" > Supervise the progress of the awardee student</span></li>
+                        <li><span class="list text-panjang" > Manage the disbursement process of the scholarship</span></li>
+                        <li><span class="list text-panjang" > Manage the scholarship program report</span></li>
+                        <li><span class="list text-panjang" > Manage program documentation</span></li>
+                        <li><span class="list text-panjang" > Manage social media account such as instagram and youtube. Manage to increase instagram follower by <span class="yellow"> 11% </span> within <span class="yellow"> 4 </span> months</span></li>
+                    </ul>
+                </div>
+                <div id="Ruangguru" class="tabcontent">
+                    <h4>Mathematics Master Teacher <span class="green">@ Ruangguru</span></h4>
+                    <p class="time">May 2021 - Nov 2021</p>
+                    <ul class="jobdesk">
+                        <li><span class="list" > Lead and examine educational content creation, primarily in Math (Grade 7-12)</span></li>
+                        <li><span class="list" > Ensure the quality of our content meets its requirements</span></li>
+                        <li><span class='list' > Supervise scripts for video learning and creating mind map and/or important notes on each related topics</span></li>
+                        <li><span class="list" > Made </span> <span class="yellow">  350+</span> <span class="green">Learning Video</span> </li>
+                  
+                </div>
+                <div id="Tentor" class="tabcontent">
+                    <h4>Mathematics Tutor <span class="green">@ Tentor Indonesia</span></h4>
+                    <p class="time">Feb 2021 - Jun 2021</p>
+                    <ul class="jobdesk">
+                        <li><span class="list" > Teach, tutor, and support 12th grade student to prepare for UTBK </span></li>
+                </div>
+                <div id="SIJ" class="tabcontent">
+                    <h4>Mathematics Teacher Intern <span class="green">@ Indonesian School of Jeddah</span></h4>
+                    <p class="time">Oct 2020 - Des 2020</p>
+                    <ul class="jobdesk">
+                        <li><span class="list" > Teach mathematics on 7th, 10th, and 11th grade</span></li>
+                        <li><span class="list" > Guiding the student council formation (OSIS)</span></li>
+                        <li><span class='list' > inated as one of favorite teacher</span></li>
+                        
+                </div>
+                <div id="UPI" class="tabcontent">
+                    <h4>Professional Laboratory Assistant <span class="green">@ Indonesia University of Education</span></h4>
+                    <p class="time">Jun 2019 - Oct 2020</p>
+                    <ul class="jobdesk">
+                        <li><span class="list" > Maintain the laboratory during learning hour in the lab</span></li>
+                        <li><span class="list" > Treat laboratory items when problem occur</span></li>
+                        <li><span class='list' > Manage book lending at department internal library</span></li>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!--EXPERIENCE END-->
+
+
+    <!-- PROJECT START -->
+    <div class="project-section section" id="project">
+        <div class="content content-project">
+            <div class="sub">
+                <h3>03. My Project</h>
+            </div>
+
+            <div class="flexbox-container">
+                <div class="flexbox-item flexbox-item-1">
+                    <div class="flexbox-atasbawah">
+                        <div class="gambar-inline">
+                            <img src="img/folder.svg" alt="">
+                            <img class = "outside-link" src="img/link.svg" alt="">
+                        </div>
+                        <h4 class="flexbox-header">Investigating Netflix Movies and Guest  Stars in The Office</h4>
+                        <p class="flexbox-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="flexbox-atasbawah">
+                        <div class="project-tag">
+                            <ul>
+                                <li>Datacamp</li>
+                                <li>Python</li>
+                                <li>Matplotlib</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="flexbox-item flexbox-item-1">
+                    <div class="flexbox-atasbawah">
+                        <div class="gambar-inline">
+                            <img src="img/folder.svg" alt="">
+                            <img class = "outside-link" src="img/link.svg" alt="">
+                        </div>
+                        <h4 class="flexbox-header">Investigating Netflix Movies and Guest  Stars in The Office</h4>
+                        <p class="flexbox-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="flexbox-atasbawah">
+                        <div class="project-tag">
+                            <ul>
+                                <li>Datacamp</li>
+                                <li>Python</li>
+                                <li>Matplotlib</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="flexbox-item flexbox-item-1">
+                    <div class="flexbox-atasbawah">
+                        <div class="gambar-inline">
+                            <img src="img/folder.svg" alt="">
+                            <img class = "outside-link" src="img/link.svg" alt="">
+                        </div>
+                        <h4 class="flexbox-header">Investigating Netflix Movies and Guest  Stars in The Office</h4>
+                        <p class="flexbox-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="flexbox-atasbawah">
+                        <div class="project-tag">
+                            <ul>
+                                <li>Datacamp</li>
+                                <li>Python</li>
+                                <li>Matplotlib</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="flexbox-item flexbox-item-1">
+                    <div class="flexbox-atasbawah">
+                        <div class="gambar-inline">
+                            <img src="img/folder.svg" alt="">
+                            <img class = "outside-link" src="img/link.svg" alt="">
+                        </div>
+                        <h4 class="flexbox-header">Investigating Netflix Movies and Guest  Stars in The Office</h4>
+                        <p class="flexbox-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="flexbox-atasbawah">
+                        <div class="project-tag">
+                            <ul>
+                                <li>Datacamp</li>
+                                <li>Python</li>
+                                <li>Matplotlib</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="flexbox-item flexbox-item-1">
+                    <div class="flexbox-atasbawah">
+                        <div class="gambar-inline">
+                            <img src="img/folder.svg" alt="">
+                            <img class = "outside-link" src="img/link.svg" alt="">
+                        </div>
+                        <h4 class="flexbox-header">Investigating Netflix Movies and Guest  Stars in The Office</h4>
+                        <p class="flexbox-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="flexbox-atasbawah">
+                        <div class="project-tag">
+                            <ul>
+                                <li>Datacamp</li>
+                                <li>Python</li>
+                                <li>Matplotlib</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="flexbox-item flexbox-item-1">
+                    <div class="flexbox-atasbawah">
+                        <div class="gambar-inline">
+                            <img src="img/folder.svg" alt="">
+                            <img class = "outside-link" src="img/link.svg" alt="">
+                        </div>
+                        <h4 class="flexbox-header">Investigating Netflix Movies and Guest  Stars in The Office</h4>
+                        <p class="flexbox-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="flexbox-atasbawah">
+                        <div class="project-tag">
+                            <ul>
+                                <li>Datacamp</li>
+                                <li>Python</li>
+                                <li>Matplotlib</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="flexbox-item flexbox-item-1">
+                    <div class="flexbox-atasbawah">
+                        <div class="gambar-inline">
+                            <img src="img/folder.svg" alt="">
+                            <img class = "outside-link" src="img/link.svg" alt="">
+                        </div>
+                        <h4 class="flexbox-header">Investigating Netflix Movies and Guest  Stars in The Office</h4>
+                        <p class="flexbox-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="flexbox-atasbawah">
+                        <div class="project-tag">
+                            <ul>
+                                <li>Datacamp</li>
+                                <li>Python</li>
+                                <li>Matplotlib</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+    <!-- PROJECT END -->
+
+
+    <!--CONTACT START-->
+    <div class="contact-section section" id="contact">
+        <div class="content content-contact">
+            <h1 class="contact">Get In Touch</h1>
+            <p class="text-panjang text-contact">Currently looking for new opportunities, my inbox is always open. Just say hi, i'll try my best to get back to you!</p> 
+            <button class="button contact-button" ><a href="https://mailto:muhammmadabidd@gmail.com?body=Hi%20Abid%2C%0D%0A...%0D%0A..." class="">Say Hi</a></button>
+        </div>
+    </div>
+    <!--CONTACT END-->
+
+
+    <!-- FOOTER START -->
+    <div class="footer-section section">
+        <div class="content-footer footer">
+            <p class="text-footer">Built By Muhammad Abid</p>
+            <p class="text-footer">@2022</p>
+            <p class="text-footer"><a  href="https://www.flaticon.com/" title=""> Icons created by Flaticon</a></p>
+        </div>
+    </div>
+    
+    <!-- FOOTER END -->
+
+
+
+<!--SCRIPT-->
+<script>
+    function openExperience(evt, experienceName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(experienceName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+
+</body>
+</html>

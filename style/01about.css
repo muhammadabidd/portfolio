@@ -1,0 +1,72 @@
+/* .text-about{
+    margin-top: 20px;
+ 
+} */
+
+
+ul.about{
+    color : #8892B0;
+    font-family: 'SF Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 175%;
+    margin-top: 20px;
+}
+
+ul.about_second{
+    color : #8892B0;
+    font-family: 'SF Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 175%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+ul.about_outside {
+    display: flex;
+}
+
+.left-about{
+    max-width: 600px;
+}
+
+
+
+
+
+/* BIG SCREEN */
+@media (max-width: 2000px ){
+    img.potrait{
+        object-fit: none;
+    }
+    
+    .pemerataan {
+        display:flex ;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        column-gap: 40px;
+    }
+
+
+}
+
+/* LAYAR KECIL */
+@media (max-width: 700px ){
+    img.potrait{
+        display: none;
+    }
+    
+    .pemerataan {
+        display:flex ;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        column-gap: 40px;
+    }
+
+
+}

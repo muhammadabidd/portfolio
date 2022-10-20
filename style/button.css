@@ -1,0 +1,35 @@
+button {
+    background-color: #0A192F;
+    font-family: 'SF Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 164%;
+    color: #62F9D5;
+    transition: 0.4s;
+    padding: 8px 14px;
+    gap: 8px;
+    border: 1px solid #62F9D5;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.mainbutton {
+    position :relative;
+    font-weight: 300;
+
+}
+
+.button:hover {
+    background: #112240;
+    transition: 0.4s;
+}
+
+.hero-button {
+    margin-top: 20px;
+}
+
+
+
