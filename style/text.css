@@ -93,6 +93,25 @@ ul.jobdesk {
 a, a:visited, a:link{
     text-decoration: none;
     color: inherit;
+    font-weight: 300;
+    font-family: 'SF Mono';
+    font-style: normal;
+    
+    
+}
+
+
+a.link-right{
+font-size: 15px;
+
+    
+}
+
+
+div.project-tag ul li{
+    font-family: 'SF Mono';
+    font-weight: 300;
+    font-size: 11px;
     
 }
 
