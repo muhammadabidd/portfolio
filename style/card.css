@@ -27,6 +27,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
+        cursor: pointer;
         
     }
 
@@ -77,6 +78,7 @@
     font-size: 3ex;
     line-height: 115%;
     margin-top: 30px;
+    transition: 0.2s;
 }
 
 .flexbox-text {
@@ -111,6 +113,32 @@ div.project-tag ul li{
 }
 
 
+.flexbox-item:hover{
+    position: relative;
+    top: -7px;
+    z-index: 10;
+    transition: 0.4s;
+    
+}
+
+.outside-link{
+    display: inline-block;
+    background: url("../img/link.svg") no-repeat;
+    background-position: center;
+    width: 19px;
+    height: auto;
+}
+
+.outside-link:hover {
+    background: url("../img/Link-hover.png") no-repeat;
+    background-position: center;
+    
+}
+
+.flexbox-header:hover {
+    color:aquamarine;
+    transition: 0.4s;
+}
 
 
     

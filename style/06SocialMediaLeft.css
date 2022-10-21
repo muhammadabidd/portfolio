@@ -37,3 +37,11 @@
    
     
 }
+
+
+.SocialMedia-link:hover{
+    
+    position: relative;
+    top: -3px;
+    transition: 0.4s;
+}

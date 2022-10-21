@@ -102,8 +102,16 @@ a, a:visited, a:link{
 
 
 a.link-right{
-font-size: 15px;
+    font-size: 15px;
+    transition: 0.4s;
+    
+}
 
+a.link-right:hover{
+    position: relative;
+    top: -3px;
+    color: #62F9D5;
+    transition: 0.4s;
     
 }
 
@@ -121,3 +129,11 @@ div.project-tag ul li{
         letter-spacing: 0.8px;
     }
 }
+
+.tablinks {
+    letter-spacing: 0.2px;
+    line-height: 140.5%;
+    font-weight: 300;
+    
+}
+
