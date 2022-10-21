@@ -36,4 +36,19 @@
 
 
 
+.gambar-tengah-1:hover{
+    content: url(../img/Linkedin-hover.png);
+}
+
+.gambar-tengah-2:hover{
+    content: url(../img/Github-hover.png);
+}
+
+.gambar-tengah-3:hover{
+    content: url(../img/Email-hover.png);
+}
+
+.gambar-tengah-4:hover{
+    content: url(../img/Whatsapp-hover.png);
+}
 

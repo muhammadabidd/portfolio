@@ -47,3 +47,35 @@
 }
 
 
+.gambar-kiri-1 {
+    content: url(../img/Linkedin-18.png);
+}
+
+.gambar-kiri-1:hover {
+    content: url(../img/Linkedin-18-hover.png);
+}
+
+.gambar-kiri-2 {
+    content: url(../img/Github18.png);
+}
+
+.gambar-kiri-2:hover {
+    content: url(../img/Github-18-hover.png);
+}
+
+
+.gambar-kiri-3 {
+    content: url(../img/Email-18.png);
+}
+
+.gambar-kiri-3:hover {
+    content: url(../img/Email-18-hover.png);
+}
+
+.gambar-kiri-4 {
+    content: url(../img/Whatsapp-18.png);
+}
+
+.gambar-kiri-4:hover {
+    content: url(../img/Whatsapp-18-hover.png);
+}
