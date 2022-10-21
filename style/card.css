@@ -121,18 +121,16 @@ div.project-tag ul li{
     
 }
 
-.outside-link{
-    display: inline-block;
-    background: url("../img/link.svg") no-repeat;
-    background-position: center;
-    width: 19px;
-    height: auto;
-}
+
 
 .outside-link:hover {
-    background: url("../img/Link-hover.png") no-repeat;
+    content: url(../img/Link-hover.png);
+    height: 19px;
+    align-self: center;
+    transition: 0.4s;
+    /* background: url("../img/Link-hover.png") no-repeat;
     background-position: center;
-    
+     */
 }
 
 .flexbox-header:hover {
