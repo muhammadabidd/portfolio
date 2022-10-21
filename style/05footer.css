@@ -9,8 +9,15 @@
 }
     
 .content-footer{
-    margin-top: 75px;
+    margin-top: 15px;
     margin-bottom: 30px;
+}
+
+@media (min-width : 830px ) {
+    .content-footer{
+        margin-top: 75px;
+        
+    }
 }
 
 
