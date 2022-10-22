@@ -176,7 +176,7 @@ div.project-tag ul li{
     
 }
 
-@font-face {
+/* @font-face {
     font-family: 'SF Mono';
     src: 
 
@@ -214,7 +214,7 @@ div.project-tag ul li{
 }
 
 
-
+ */
 
 
 
@@ -244,7 +244,7 @@ div.project-tag ul li{
          url('../Font/Calibre/Calibre-LightItalic.ttf') format('ttf'),
          url('../Font/Calibre/Calibre-LightItalic.woff') format('woff'),
          url('../Font/Calibre/Calibre-LightItalic.woff2') format('woff2');
-         font-style:lightitalic
+         font-style:'lightitalic'
 
 
     
@@ -288,7 +288,7 @@ div.project-tag ul li{
     
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Calibre';
     src: 
 
@@ -308,12 +308,11 @@ div.project-tag ul li{
          url('../Font/Calibre/Calibre-Semibold.ttf') format('ttf'),
          url('../Font/Calibre/Calibre-Semibold.woff') format('woff'),
          url('../Font/Calibre/Calibre-Semibold.woff2') format('woff2');
-         font-style:semibold
+         font-style: 'semibold'
 
 
     
 }
-
 @font-face {
     font-family: 'Calibre';
     src: 
@@ -321,10 +320,14 @@ div.project-tag ul li{
          url('../Font/Calibre/Calibre-SemiboldItalic.ttf') format('ttf'),
          url('../Font/Calibre/Calibre-SemiboldItalic.woff') format('woff'),
          url('../Font/Calibre/Calibre-SemiboldItalic.woff2') format('woff2');
-         font-style:semibolditalic
+         font-style:'semibolditalic'
     
+} */
+
+
+p.hero-text {
+    font-family:'Calibre';
+    font-style: 'semibold';
 }
-
-
 
 
