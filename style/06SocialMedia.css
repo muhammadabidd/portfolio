@@ -19,7 +19,7 @@
         margin: auto;
         margin-top: 125px;
         margin-bottom: 25px;
-        width: 400px;
+        max-width: 400px;
         position: relative;
         
     }
