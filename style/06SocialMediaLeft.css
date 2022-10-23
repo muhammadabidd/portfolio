@@ -48,34 +48,36 @@
 
 
 .gambar-kiri-1 {
-    content: url(../img/Linkedin-18.png);
+    content: url(../img/svg/linkedin.svg);
 }
 
 .gambar-kiri-1:hover {
-    content: url(../img/Linkedin-18-hover.png);
+    content: url(../img/svg/linkedinhover.svg);
 }
 
 .gambar-kiri-2 {
-    content: url(../img/Github18.png);
+    content: url(../img/svg/github.svg);
 }
 
 .gambar-kiri-2:hover {
-    content: url(../img/Github-18-hover.png);
+    content: url(../img/svg/githubhover.svg);
 }
 
 
 .gambar-kiri-3 {
-    content: url(../img/Email-18.png);
+    content: url(../img/svg/email.svg);
 }
 
 .gambar-kiri-3:hover {
-    content: url(../img/Email-18-hover.png);
+    content: url(../img/svg/emailhover.svg);
 }
 
 .gambar-kiri-4 {
-    content: url(../img/Whatsapp-18.png);
+    content: url(../img/svg/whatsapp.svg);
 }
 
 .gambar-kiri-4:hover {
-    content: url(../img/Whatsapp-18-hover.png);
+    content: url(../img/svg/whatsapphover.svg);
 }
+
+
