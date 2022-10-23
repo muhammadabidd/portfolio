@@ -70,3 +70,13 @@ ul.about_outside {
 
 
 }
+
+.potrait {
+    
+    transition: 0.4s;
+}
+
+.potrait:hover{
+    
+    transition: 0.4s;
+}
