@@ -1,0 +1,25 @@
+
+
+.core-featured-blog {
+    background-image: url(../img/featured-blog/Main01.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+div.author-featured-blog p, 
+h2.article-title-featured-blog, 
+p.article-resume-featured-blog{
+    color: var(--primary-white);
+
+}
+
+div.author-featured-blog {
+    display: flex;
+    margin-top: 250px;
+
+}
