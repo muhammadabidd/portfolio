@@ -16,3 +16,23 @@ div.core-latest-blog {
     padding-right: 50px;
 }
 
+
+.inner-link-latest-blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.social-media-inner-link{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.social-media-image-link {
+    padding: 0% 5px;
+}
