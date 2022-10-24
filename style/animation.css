@@ -1,18 +1,18 @@
 @keyframes enterance {
 	0% {
 		opacity: 0;
-		transform: translateX(-50px);
+		transform: translateY(50px);
 	}
 
 	100% {
 		opacity: 1;
-		transform: translateX(0);
+		transform: translateY(0);
 	}
 }
 
 
 
-p.text-pendek {
+p.text-pendek1 {
     animation: enterance 0.8s ease 0.1s 1 normal forwards;
     
 }
@@ -24,3 +24,72 @@ h1 {
 h2 {
     animation: enterance 0.8s ease 0.3s 1 normal forwards;
 }
+
+
+p.hero-text {
+	animation: enterance 0.8s ease 0.4s 1 normal forwards;
+}
+
+.hero-button {
+	animation: enterance 0.8s ease 0.5s 1 normal forwards;
+}
+
+
+@keyframes enteranceleft {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+  
+  
+
+
+/* .SocialMedia-left {
+	animation: enteranceleft 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+} */
+
+/* .SocialMedia-right {
+	animation: enteranceleft 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+} */
+
+
+
+p.right{
+	animation: enteranceleft 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+
+
+.gambar-kiri-1 {
+	
+	animation: enteranceleft 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+.gambar-kiri-2 {
+	
+	animation: enteranceleft 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.1s both;
+}
+
+.gambar-kiri-3 {
+	
+	animation: enteranceleft 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.2s both;
+}
+
+.gambar-kiri-4 {
+	
+	animation: enteranceleft 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.3s both;
+}
+
+.vertical-line {
+	animation: enteranceleft 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+}
+
+
+
+
