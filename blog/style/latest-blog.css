@@ -1,5 +1,5 @@
 div.inner-core-latest-blog {
-    background-image: url(../img/latest-blog/01.png);
+    
     background-size:cover;
     background-repeat: no-repeat;
     height: 300px;
@@ -35,4 +35,29 @@ div.core-latest-blog {
 
 .social-media-image-link {
     padding: 0% 5px;
+}
+
+
+@media (max-width:650px) {
+    div.core-latest-blog{
+       padding-top: 30px;
+       padding-left: 50px;
+       padding-right: 25px;
+       padding-bottom: 70px; 
+       
+    }
+    
+}
+
+
+.inner-core-01 {
+    background-image: url(../img/latest-blog/01.png);
+}
+
+.inner-core-02 {
+    background-image: url(../img/latest-blog/02.png);
+}
+
+.inner-core-03 {
+    background-image: url(../img/latest-blog/03.png);
 }

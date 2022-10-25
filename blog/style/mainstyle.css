@@ -6,6 +6,15 @@
     --secondary-lightBlue : #2E9DD1;
     --secondary-dark : #373B4A;
     --accent : #40F591;
+
+
+    --padding-left-right : 7% ;
+
+
+    --small-reguler : 18px;
+    --medium-regular : 20px;
+
+
 }
 
 
@@ -62,7 +71,7 @@ button.read-more {
 
 
 hr {
-    margin-top: 10px;
+    margin-top: -10px;
     width: 150px;
     border-radius: 7px;
     border-top: 2px solid var(--primary-dark)
@@ -78,3 +87,77 @@ button.read-more, div.date {
     color: var(--primary-dark);
 }
 
+span.blue  {
+    color: var(--secondary-lightBlue);
+}
+
+a.heading-list, p.author, .header03, .read-more, .footer-text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
+
+p.day {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700; 
+}
+
+p.month {
+    font-family: 'Jost', sans-serif;
+    font-weight: 200; 
+}
+
+h1,h2 {
+    font-family: 'Karma', serif;
+}
+
+h2 {
+    line-height: 25px;
+}
+
+.article-resume {
+    font-family: 'Lora', serif;
+}
+
+.header01{
+    font-family: 'Prata', serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-bottom: -15px;
+}
+
+.header02 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 54px;
+    
+}
+
+
+div.author {
+    display: flex ;
+    column-gap: 8px;
+
+}
+@media (max-width:650px) {
+    .header01{
+       
+        font-size: 25px;
+        margin-bottom: -5px;
+       
+      
+    }
+    
+    .header02 {
+       
+        font-size: 30px;
+        
+    }
+    
+
+    .article-resume {
+        font-size: small;
+    }
+
+    p.author {
+        font-size: smaller;
+    }
+}
