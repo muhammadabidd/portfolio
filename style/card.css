@@ -114,8 +114,7 @@ div.project-tag ul li{
 
 
 .flexbox-item:hover{
-    position: relative;
-    top: -7px;
+    transform: translateY(-7px);
     z-index: 10;
     transition: 0.4s;
     

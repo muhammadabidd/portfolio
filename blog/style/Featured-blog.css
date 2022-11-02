@@ -5,6 +5,9 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.4s;
+    
+    
 }
 
 
@@ -15,6 +18,7 @@ div.author-featured-blog p,
 h2.article-title-featured-blog, 
 p.article-resume-featured-blog{
     color: var(--primary-white);
+    transition: 0.4s;
 
 }
 
@@ -26,4 +30,18 @@ div.author-featured-blog {
 
 button.read-more-featured-blog {
     margin-top: 15px;
+}
+
+.article-title-featured-blog:hover {
+    color: var(--accent);
+    transition: 0.4s;
+   
+}
+
+
+.core-featured-blog:hover {
+
+    transition: 0.4s;
+    transform: translateY(-5px);
+
 }

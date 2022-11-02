@@ -6,6 +6,7 @@
     --secondary-lightBlue : #2E9DD1;
     --secondary-dark : #373B4A;
     --accent : #40F591;
+    --accent-hover : #83f7b7;
 
 
     --padding-left-right : 7% ;
@@ -160,4 +161,20 @@ div.author {
     p.author {
         font-size: smaller;
     }
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.read-more-featured-blog, .read-more-latest-blog {
+    transition: 0.4s;
+    }
+
+.read-more-featured-blog:hover, .read-more-latest-blog:hover {
+    background-color: var(--accent-hover);
+    cursor: pointer;
+    transition: 0.4s;
+    
 }

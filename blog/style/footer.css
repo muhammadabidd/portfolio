@@ -28,5 +28,10 @@
 .image-footer { 
     width: 30px;
     height: 30px;
+    transition: 0.4s;
+}
 
+.image-footer:hover{
+    transform: translateY(-3px);
+    transition: 0.4s;
 }

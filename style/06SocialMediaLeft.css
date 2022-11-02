@@ -41,8 +41,11 @@
 
 .SocialMedia-link:hover{
     
-    position: relative;
-    top: -3px;
+    transform: translateY(-3px);
+    transition: 0.4s;
+}
+
+.SocialMedia-link{
     transition: 0.4s;
 }
 

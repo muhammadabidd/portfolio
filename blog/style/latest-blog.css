@@ -7,9 +7,14 @@ div.inner-core-latest-blog {
     margin-top: 20px;
     padding: 30px 30px 50px 30px;
     background-position: center;
+    transition: 0.4s;
 
 }
 
+.inner-core-latest-blog:hover {
+    transform: translateY(-5px);
+    transition: 0.4s;
+}
 
 div.core-latest-blog {
     padding-left: 100px;
@@ -35,9 +40,13 @@ div.core-latest-blog {
 
 .social-media-image-link {
     padding: 0% 5px;
+    transition: 0.4s;
 }
 
-
+.social-media-image-link:hover{
+    transform: translateY(-3px);
+    translate: 0.4s;
+}
 @media (max-width:650px) {
     div.core-latest-blog{
        padding-top: 30px;
@@ -49,6 +58,15 @@ div.core-latest-blog {
     
 }
 
+.latest-article-header{
+    transition: 0.4s;
+}
+
+
+.latest-article-header:hover {
+    color: var(--secondary-regularblue);
+    transition: 0.4s;
+}
 
 .inner-core-01 {
     background-image: url(../img/latest-blog/01.png);
@@ -61,3 +79,6 @@ div.core-latest-blog {
 .inner-core-03 {
     background-image: url(../img/latest-blog/03.png);
 }
+
+
+
