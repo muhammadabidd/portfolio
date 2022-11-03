@@ -7,6 +7,8 @@
     --secondary-dark : #373B4A;
     --accent : #40F591;
     --accent-hover : #83f7b7;
+    --figure-capt : #848181;
+
 
 
     --padding-left-right : 7% ;
@@ -97,7 +99,7 @@ a.heading-list, p.author, .header03, .read-more, .footer-text {
     font-weight: 400;
 }
 
-p.day {
+p.day, h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 700; 
 }
