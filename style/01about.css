@@ -73,10 +73,11 @@ ul.about_outside {
 
 .potrait {
     
-    transition: 0.4s;
+    transition: 1s;
+    
 }
 
 .potrait:hover{
-    
-    transition: 0.4s;
+    transform: translateY(-10px);
+    transition: 1s;
 }
