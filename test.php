@@ -29,4 +29,6 @@ echo '<pre>';
 print_r($myfile2);
 echo'</pre>';
 
+echo "asdbaslkdalsdkjasd";
+
 ?>
