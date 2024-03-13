@@ -121,7 +121,7 @@
                     <h4>Coding Educator <span class="green">@ Brightchamps</span></h4>
                     <p class="time">Des 2022 - Now</p>
                     <ul class="jobdesk ">
-                        <li><span class="list text-panjang" > Attained the prestigious title of nationwide best teacher in February 2023</span></li>
+                        <li><span class="list text-panjang" > Attained the  title of nationwide best teacher in February 2023</span></li>
                         <li><span class='list text-panjang' > Taught coding and technology skills to students in grades 1-12 as part of an international startup company</span></li>
                         <li><span class="list text-panjang" > Designed and delivered customized lesson plans for individual learning styles and needs</span></li>
                         <li><span class="list text-panjang" > Taught a diverse range of projects, including Scratch, Thunkable, 3D modeling, AR/VR, and Python</span></li>
@@ -267,6 +267,10 @@
                     </div> 
                 </a>
                 </div>
+
+                <?php
+                include("card.php");
+                ?>
 
                 
                 <div class="flexbox-item flexbox-item-4">
