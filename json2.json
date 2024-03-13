@@ -1,0 +1,44 @@
+[
+      {
+        "name": "Alice Smith",
+        "age": 20,
+        "major": "Computer Science",
+        "GPA": 3.8,
+        "is_international": false,
+        "courses": ["Introduction to Programming", "Data Structures", "Linear Algebra"]
+      },
+      {
+        "name": "Bob Johnson",
+        "age": 22,
+        "major": "Engineering",
+        "GPA": 3.5,
+        "is_international": true,
+        "courses": ["Mechanics", "Electrical Circuits", "Computer-Aided Design"]
+      },
+      {
+        "name": "Elena Rodriguez",
+        "age": 21,
+        "major": "Biology",
+        "GPA": 3.9,
+        "is_international": false,
+        "courses": ["Cell Biology", "Genetics", "Ecology"]
+      },
+      {
+        "name": "Michael Chang",
+        "age": 19,
+        "major": "Business Administration",
+        "GPA": 3.6,
+        "is_international": false,
+        "courses": ["Marketing", "Financial Management", "Organizational Behavior"]
+      },
+      {
+        "name": "Sophie Lee",
+        "age": 20,
+        "major": "Psychology",
+        "GPA": 3.7,
+        "is_international": true,
+        "courses": ["Introduction to Psychology", "Cognitive Neuroscience", "Abnormal Psychology"]
+      }
+    ]
+
+  
