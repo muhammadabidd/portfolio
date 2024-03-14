@@ -31,6 +31,17 @@
         
     }
 
+    .flexbox-item-data{
+        /* width: 250px; */
+        min-height: 160px;
+        
+
+    }
+
+    .flexbox-item-data h4{
+            margin-top: 0px;
+    }
+
     .flexbox-atasbawah{
         
         width: 100%;
