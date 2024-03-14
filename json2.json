@@ -37,7 +37,10 @@
         "major": "Psychology",
         "GPA": 3.7,
         "is_international": true,
-        "courses": ["Introduction to Psychology", "Cognitive Neuroscience", "Abnormal Psychology"]
+        "courses": ["Introduction to Psychology", "Cognitive Neuroscience", "Abnormal Psychology", "Mathematics for teacher", "Student Psychology"]
+      },
+      {
+        "name": "Sophie Lee"
       }
     ]
 
