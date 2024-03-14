@@ -99,148 +99,14 @@
     <!--ABOUT END-->
 
 
-    <?php include("experience.php")  ?>
 
+    <!--EXPERIENCE START-->
+        <?php include("experience.php")  ?>
+    <!--EXPERIENCE END-->
 
-    <!-- PROJECT START -->
-    <div class="project-section section" id="project">
-        <div class="content content-project">
-            <div class="sub">
-                <h3>03. My Project</h>
-            </div>
-
-            <div class="flexbox-container">
-                <div class="flexbox-item flexbox-item-1">
-                <a href="https://github.com/muhammadabidd/Binar_Gold_Challenge" target="_blank">
-                    <div class="flexbox-atasbawah">
-                        <div class="gambar-inline">
-                            <img class="image-filter" src="img/svg/folder.svg" style="height: 44px; width: 44px;" alt="">
-                            <img class = "outside-link" src="img/svg/link.svg" style="height: 25px; width: 25px;"alt="">
-                        </div>
-                        <h4 class="flexbox-header">API Documentation for Data Processing and Modeling </h4>
-                        <p class="flexbox-text">Building API for data cleansing using Flask. This API will process the inputted text/file so that there are no more unnecessary character in the text so the text will look more tidier.</p>
-                    </div>
-                    <div class="flexbox-atasbawah">
-                        <div class="project-tag">
-                            <ul>
-                                <li>API</li>
-                                <li>Binar Academy</li>
-                                <li>Python</li>
-                            </ul>
-                        </div>
-                    </div> 
-                </a>
-                </div>
-
-                <div class="flexbox-item flexbox-item-2">
-                <a href="https://github.com/muhammadabidd/Datacamp--The-GitHub-History-of-the-Scala-Language" target="_blank">
-                    <div class="flexbox-atasbawah">
-                        <div class="gambar-inline">
-                            <img class="image-filter" src="img/svg/folder.svg" style="height: 44px; width: 44px;" alt="">
-                            <img class = "outside-link" src="img/svg/link.svg" style="height: 25px; width: 25px;" alt="">
-                        </div>
-                        <h4 class="flexbox-header">The GitHub History of the Scala Language </h4>
-                        <p class="flexbox-text">With almost 30k commits and a history spanning over ten years, Scala is a mature programming language. It is a general-purpose programming language that has recently become another prominent language for data scientists. this project will find out who has had the most influence on its development and who are the experts. </p>
-                    </div>
-                    <div class="flexbox-atasbawah">
-                        <div class="project-tag">
-                            <ul>
-                                <li>Datacamp</li>
-                                <li>Python</li>
-                                <li>Matplotlib</li>
-                            </ul>
-                        </div>
-                    </div> 
-                </a>
-                </div>
-
-                <div class="flexbox-item flexbox-item-3">
-                <a href="https://github.com/muhammadabidd/DataCamp_Investigating-Netflix-Movies-and-Guest-Stars-in-The-Office" target="_blank">
-                    <div class="flexbox-atasbawah">
-                        <div class="gambar-inline">
-                            <img class="image-filter" src="img/svg/folder.svg" style="height: 44px; width: 44px;" alt="">
-                            <img class = "outside-link" src="img/svg/link.svg" style="height: 25px; width: 25px;" alt="">
-                        </div>
-                        <h4 class="flexbox-header">Investigating Netflix Movies and Guest  Stars in The Office</h4>
-                        <p class="flexbox-text">This project do some analysis throughout netflix film distributin from 1997 until 2020. </p>
-                    </div>
-                    <div class="flexbox-atasbawah">
-                        <div class="project-tag">
-                            <ul>
-                                <li>Datacamp</li>
-                                <li>Python</li>
-                                <li>Matplotlib</li>
-                            </ul>
-                        </div>
-                    </div> 
-                </a>
-                </div>
-
-                <?php
-                include("card.php");
-                ?>
-
-                
-                <div class="flexbox-item flexbox-item-4">
-                    <a href="https://github.com/muhammadabidd/PlatinumChallenge-Kelompok02" target="_blank">
-                        <div class="flexbox-atasbawah">
-                            <div class="gambar-inline">
-                                <img class="image-filter" src="img/svg/folder.svg" style="height: 44px; width: 44px;" alt="">
-                                <img class = "outside-link" src="img/svg/link.svg" style="height: 25px; width: 25px;" alt="">
-                            </div>
-                            <h4 class="flexbox-header">Neural Network API</h4>
-                            <p class="flexbox-text">Neural Network API to determine the sentiment of a given sentences as either positive or negative sentiment. This API use Machine Learning (Neural Network especially) to complete.
-                                 </p>
-                        </div>
-                        <div class="flexbox-atasbawah">
-                            <div class="project-tag">
-                                <ul>
-                                    <li>Machine Learning</li>
-                                    <li>Python</li>
-                                    <li>Neural Network</li>
-                                </ul>
-                            </div>
-                        </div> 
-                    </a>
-                </div>
-
-                <div class="flexbox-item flexbox-item-5">
-                    <a href="https://www.roblox.com/games/13347095097/" target="_blank">
-                        <div class="flexbox-atasbawah">
-                            <div class="gambar-inline">
-                                <img class="image-filter" src="img/svg/folder.svg" style="height: 44px; width: 44px;" alt="">
-                                <img class = "outside-link" src="img/svg/link.svg" style="height: 25px; width: 25px;" alt="">
-                            </div>
-                            <h4 class="flexbox-header">Roblox - Squid Game</h4>
-                            <p class="flexbox-text">This project is a Roblox game called "Squid Game" inspired by the popular Netflix series. It features a red light, green light game where players need to freeze during the red light phase to avoid being eliminated
-                                 </p>
-                        </div>
-                        <div class="flexbox-atasbawah">
-                            <div class="project-tag">
-                                <ul>
-                                    <li>Roblox Studio</li>
-                                    <li>Lua</li>
-                                    
-                                </ul>
-                            </div>
-                        </div> 
-                    </a>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-    <!-- PROJECT END -->
-
-
-
-
-
-                
-
-                
-
+    <!--EXPERIENCE START-->
+        <?php include("project_card.php")  ?>
+    <!--EXPERIENCE END-->
 
     <!--CONTACT START-->
     <div class="contact-section section" id="contact">
@@ -273,7 +139,6 @@
         
 
     <div class="SocialMedia-right">
-        
         <p class="right"><a class = "link-right "href="mailto:muhammmadabidd@gmail.com?body=Hi%20Abid..%0D%0A..%0D%0A.." target="_blank">muhammmadabidd@gmail.com</a></p>
         <div class="vertical-line"></div>
     </div>
@@ -288,7 +153,7 @@
             <p class="text-footer">Built by Muhammad Abid</p>
             <p class="text-footer">Inspired by Brittany Chiang</p>
 
-            <p class="text-footer">@2023</p>
+            <p class="text-footer">@2024</p>
         </div>
     </div>
     

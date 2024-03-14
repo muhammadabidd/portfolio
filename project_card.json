@@ -1,0 +1,53 @@
+[
+    {"title":"API Documentation for Data Processing and Modeling",
+     "desc":"Building API for data cleansing using Flask. This API will process the inputted text/file so that there are no more unnecessary character in the text so the text will look more tidier.",
+     "link":"https://github.com/muhammadabidd/Binar_Gold_Challenge",
+     "tags":["API", "Binar Academy", "Python"]}, 
+
+     {"title":"The GitHub History of the Scala Language",
+     "desc":"With almost 30k commits and a history spanning over ten years, Scala is a mature programming language. It is a general-purpose programming language that has recently become another prominent language for data scientists. this project will find out who has had the most influence on its development and who are the experts. ",
+     "link":"https://github.com/muhammadabidd/Datacamp--The-GitHub-History-of-the-Scala-Language",
+     "tags":["Python", "Matplotlib", "Datacamp"]},
+
+     {"title":"Investigating Netflix Movies and Guest  Stars in The Office",
+     "desc":"This project do some analysis throughout netflix film distributin from 1997 until 2020. ",
+     "link":"https://github.com/muhammadabidd/DataCamp_Investigating-Netflix-Movies-and-Guest-Stars-in-The-Office",
+     "tags":["Python", "Matplotlib","Datacamp"]},
+
+     {"title":"Neural Network API",
+     "desc":"Neural Network API to determine the sentiment of a given sentences as either positive or negative sentiment. This API use Machine Learning (Neural Network especially) to complete.",
+     "link":"https://github.com/muhammadabidd/PlatinumChallenge-Kelompok02",
+     "tags":["Machine Learning", "Python", "Neural Network"]},
+
+     {"title":"Roblox - Squid Game",
+     "desc":"This project is a Roblox game called \"Squid Game\" inspired by the popular Netflix series. It features a red light, green light game where players need to freeze during the red light phase to avoid being eliminated",
+     "link":"https://www.roblox.com/games/13347095097/",
+     "tags":["Roblox Studio", "LUA", "Game Dev"]},
+
+     {"title":"Roblox - Squid Game",
+     "desc":"This project is a Roblox game called \"Squid Game\" inspired by the popular Netflix series. It features a red light, green light game where players need to freeze during the red light phase to avoid being eliminated",
+     "link":"https://www.roblox.com/games/13347095097/",
+     "tags":["Roblox Studio", "LUA", "Game Dev"]},
+
+     {"title":"Roblox - Squid Game",
+     "desc":"This project is a Roblox game called \"Squid Game\" inspired by the popular Netflix series. It features a red light, green light game where players need to freeze during the red light phase to avoid being eliminated",
+     "link":"https://www.roblox.com/games/13347095097/",
+     "tags":["Roblox Studio", "LUA", "Game Dev"]},
+
+     {"title":"Roblox - Squid Game",
+     "desc":"This project is a Roblox game called \"Squid Game\" inspired by the popular Netflix series. It features a red light, green light game where players need to freeze during the red light phase to avoid being eliminated",
+     "link":"https://www.roblox.com/games/13347095097/",
+     "tags":["Roblox Studio", "LUA", "Game Dev"]},
+
+     {"title":"Roblox - Squid Game",
+     "desc":"This project is a Roblox game called \"Squid Game\" inspired by the popular Netflix series. It features a red light, green light game where players need to freeze during the red light phase to avoid being eliminated",
+     "link":"https://www.roblox.com/games/13347095097/",
+     "tags":["Roblox Studio", "LUA", "Game Dev"]},
+
+     {"title":"Roblox - Squid Game",
+     "desc":"This project is a Roblox game called \"Squid Game\" inspired by the popular Netflix series. It features a red light, green light game where players need to freeze during the red light phase to avoid being eliminated",
+     "link":"https://www.roblox.com/games/13347095097/",
+     "tags":["Roblox Studio", "LUA", "Game Dev"]}
+
+
+]
