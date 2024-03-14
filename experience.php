@@ -1,5 +1,5 @@
 
-<?php  $experiences = file_get_contents("workexp.json");
+<?php  $experiences = file_get_contents("experience.json");
 
        $experiences = json_decode($experiences);    ?>
 
@@ -28,7 +28,7 @@
                 <?php foreach ($experiences as $exp):  ?>
                     <?php if(isset($exp) && !empty($exp)): ?>
                         <div id="<?php echo $exp->id ?>" class="tabcontent">
-                            <h4>Coding Educator <span class="green">@ <?php echo $exp->workplace ?></span></h4>
+                            <h4><?php echo $exp->role ?> <span class="green">@ <?php echo $exp->workplace ?></span></h4>
                             <p class="time"><?php echo $exp->time ?></p>
                             <ul class="jobdesk ">
 

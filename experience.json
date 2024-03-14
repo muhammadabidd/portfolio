@@ -1,6 +1,7 @@
 [
     {"id" : "Brightchamps", 
 "workplace" : "Brightchamps", 
+"role" : "Coding Educator",
 "time" : "Dec 2022 - Now", 
 "notes" : ["Attained the prestigious title of nationwide best teacher in February 2023",
 "Taught coding and technology skills to students in grades 1-12 as part of an international startup company",
@@ -11,6 +12,7 @@
 
     {"id" : "RAS", 
 "workplace" : "Rumah Amal Salman", 
+"role":"Head of Imam Muda Salman Scholarship",
 "time" :"Jan 2022 - May 2022", 
 "notes" : ["Managed nationwide scholarship program, overseeing application screening, interview selection, and award disbursement.",
 "Supervised awardee progress to ensure compliance with program requirements, including academic performance and community involvement.",
@@ -19,7 +21,8 @@
 
 
     {"id" : "Ruangguru",
-"workplace": "Ruangguru", 
+"workplace": "Ruangguru",
+"role":"Mathematics Master Teacher",
 "time" :"May 2021 - Nov 2021", 
 "notes" : ["Developed and produced 350+ video solutions for math problems.",
 "Created solutions for basic to advanced math concepts.",
@@ -28,6 +31,7 @@
 
     {"id" : "SIJ", 
 "workplace" : "Indonesian School of Jeddah", 
+"role":"Mathematics Teacher Intern",
 "time" : "Oct 2020 - Dec 2020", 
 "notes":["Designed and delivered tailored lesson plans aligned with the national curriculum.",
 "Collaborated with teachers and administrators to promote academic achievement.",
@@ -36,6 +40,7 @@
 
     {"id" : "UPI", 
 "workplace" : "Indonesia University of Education", 
+"role" : "Professional Laboratory Assistant",
 "time" : "Jun 2019 - Oct 2020", 
 "notes" : ["Maintained computer lab equipment and prepared computers for use before each class session",
 "Troubleshot and resolved technical issues with computer software and hardware",
