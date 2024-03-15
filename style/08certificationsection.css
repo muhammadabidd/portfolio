@@ -1,0 +1,15 @@
+.certification-section{
+    .flexbox-atas {
+        display: flex;
+    }
+    
+}
+
+.certification-section .kanan{
+    margin-left: 35px;
+}
+
+.certification-section h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
