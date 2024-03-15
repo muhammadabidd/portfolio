@@ -20,17 +20,17 @@
             <div class="flexbox-container flexbox-data">
 
                 <?php foreach ($datas as $data) : ?>
-                    <a href="http://">
+                    <a href="<?php echo $data->link ?>">
                     <div class="flexbox-item flexbox-item-data">
                     
                         <div class="flexbox-atasbawah">
-                            <h4>Investigating  Netflix Movie around the world Value</h4>
+                            <h4><?php echo $data->title ?></h4>
                         </div>
 
                         <div class="flexbox-atasbawah">
                             <div class="project-tag">
                                 <p>
-                                    asd, asd, asd, as, ads
+                                    <?php echo $data->tag ?>
                                 </p>
                             </div>
                         </div>

@@ -1,0 +1,27 @@
+[
+    {   "id" : 1,
+        "title": "Data Analyst Associate",
+        "tag" : "Datacamp, Pandas, SQL, EDA", 
+        "issued" : "Jan 2022",
+        "link" : "https://www.datacamp.com/certificate/DAA0019966502992#"
+    }, 
+
+    {"id" : 2,
+        "title": "Data Analyst Associate",
+        "tag" : "Datacamp, Pandas, SQL, EDA", 
+        "issued" : "Jan 2022",
+        "link" : "https://www.datacamp.com/certificate/DAA0019966502992#"
+    }, 
+
+    {"id" : 3,
+        "title": "Data Analyst Associate",
+        "tag" : "Datacamp, Pandas, SQL, EDA", 
+        "issued" : "Jan 2022",
+        "link" : "https://www.datacamp.com/certificate/DAA0019966502992#"
+    }
+
+
+
+
+
+]

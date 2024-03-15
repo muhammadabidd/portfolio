@@ -1,0 +1,71 @@
+[
+    {
+        "id" : 1,
+        "title": "Learning Numpy 1 : A Beginner Guide (with Ryan)",
+        "released" : "10 Feb 2024",
+        "tag" : "Datacamp, Pandas, SQL, EDA", 
+        "link" : "https://www.youtube.com/watch?v=omoo-7qQG5U&list=PLjxLQ9w6jcBF1PdzfTIXcQuqoGa7_9q5q&ab_channel=MuhammadAbid", 
+        "img" : "img/certification/data_analyst_associate_badge.png"
+    },
+    {
+        "id" : 2,
+        "title": "Learning Numpy 2 : A Beginner Guide (with Ryan)",
+        "released" : "15 Feb 2024",
+        "tag" : "Datacamp, Pandas, SQL, EDA", 
+        "link" : "https://www.youtube.com/watch?v=o3UTene3F7k&list=PLjxLQ9w6jcBF1PdzfTIXcQuqoGa7_9q5q&index=2&ab_channel=MuhammadAbid", 
+        "img" : "img/certification/data_analyst_associate_badge.png"
+    },
+    {
+        "id" : 3,
+        "title": "Learning Pandas 1 - A Beginner Guide (with Ryan)",
+        "released" : "22 Feb 2024",
+        "tag" : "Datacamp, Pandas, SQL, EDA", 
+        "link" : "https://youtu.be/RLg4VW9nNtQ", 
+        "img" : "img/certification/data_analyst_associate_badge.png"
+    },
+    {
+        "id" : 4,
+        "title": "Learning Pandas 2 - A Beginner Guide (with Ryan)",
+        "released" : "23 Feb 2024",
+        "tag" : "Datacamp, Pandas, SQL, EDA", 
+        "link" : "https://youtu.be/0F1HOej1DJc", 
+        "img" : ""
+    },
+    {
+        "id" : 5,
+        "title": "Learning Matplotlib 1 - A Beginner Course (with Ryan)",
+        "released" : "27 Feb 2024",
+        "tag" : "Datacamp, Pandas, SQL, EDA", 
+        "link" : "https://youtu.be/CHlw-snNhhU", 
+        "img" : ""
+    },
+    {
+        "id" : 6,
+        "title": "Learning Matplotlib 2 - A Beginner Course (with Ryan)",
+        "released" : "29 Feb 2024",
+        "tag" : "Datacamp, Pandas, SQL, EDA", 
+        "link" : "https://youtu.be/OYbO3lIya-o", 
+        "img" : ""
+    },
+    {
+        "id" : 7,
+        "title": "Learning Matplotlib 3 - Practical (with Ryan)",
+        "released" : "01 Mar 2024",
+        "tag" : "Datacamp, Pandas, SQL, EDA", 
+        "link" : "https://youtu.be/OYbO3lIya-o", 
+        "img" : ""
+    },
+    {
+        "id" : 4,
+        "title": "",
+        "released" : "01 Jan 2024",
+        "tag" : "", 
+        "link" : "", 
+        "img" : ""
+    }
+
+
+
+
+
+]
