@@ -20,7 +20,7 @@
             <div class="flexbox-container flexbox-data">
 
                 <?php foreach ($datas as $data) : ?>
-                    <a href="<?php echo $data->link ?>">
+                    <a class="card" href="<?php echo $data->link ?>">
                     <div class="flexbox-item flexbox-item-data">
                     
                         <div class="flexbox-atasbawah">
@@ -44,6 +44,8 @@
 
                 <?php endforeach;?>
             </div>
+
+            <button id="showMoreDataBtn" class="button" style="margin:auto; display:block; margin-top : 20px;">See More</button>
 
         </div>
 </div>

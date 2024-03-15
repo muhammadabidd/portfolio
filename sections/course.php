@@ -36,7 +36,7 @@
                 <?php endforeach;?>
             </div>
 
-            <button id="showMoreBtn" class="button" style="margin:auto; display:block; margin-top : 20px;">See More</button>
+            <button id="showMoreCoursesBtn" class="button" style="margin:auto; display:block; margin-top : 20px;">See More</button>
 
         </div>
 </div>

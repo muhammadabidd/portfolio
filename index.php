@@ -202,33 +202,69 @@
     document.getElementById("defaultOpen").click();
 
 
-    document.addEventListener("DOMContentLoaded", function() {
-        var cardContainer = document.getElementById("flexbox-courses");
-        var showMoreBtn = document.getElementById("showMoreBtn");
-        console.log(cardContainer)
-        var cards = document.querySelectorAll(".flexbox-container .card");
-        var cardsToShow = 3; // Change this number to adjust how many cards are initially visible
-        var hidden = true;
 
-        console.log(cards)
 
-        // Function to toggle card visibility
-        function toggleCards() {
-            for (var i = cardsToShow; i < cards.length; i++) {
-            cards[i].style.display = hidden ? "block" : "none";
+
+
+    
+    document.addEventListener("DOMContentLoaded", function () {
+        // Data Section
+        var showMoreDataBtn = document.getElementById("showMoreDataBtn");
+        var dataCards = document.querySelectorAll("#data .flexbox-container .card");
+
+        // Courses Section
+        var showMoreCoursesBtn = document.getElementById("showMoreCoursesBtn");
+        var courseCards = document.querySelectorAll("#courses .flexbox-container .card");
+
+        var dataHidden = false;
+        var courseHidden = false;
+
+
+        console.log(dataCards)
+        console.log(courseCards)
+
+        // Initially hide extra data project cards
+        // toggleCards(dataCards);
+
+        // Initially hide extra course cards
+        // toggleCards(courseCards);
+
+        toggleDataCards();
+        toggleCourseCards();
+
+
+
+        // Toggle data project cards visibility on button click
+        showMoreDataBtn.addEventListener("click", function () {
+            // toggleCards(dataCards);
+            toggleDataCards();
+        });
+
+        // Toggle course cards visibility on button click
+        showMoreCoursesBtn.addEventListener("click", function () {
+            // toggleCards(courseCards);
+            toggleCourseCards();
+        });
+
+        function toggleDataCards() {
+            for (var i = 3; i < dataCards.length; i++) {
+                dataCards[i].classList.toggle('hidden');
+                dataCards[i].style.display =dataHidden? "block" : 'none';
             }
-            hidden = !hidden;
-            showMoreBtn.textContent = hidden ? "Click to see more" : "Click to see less";
+            dataHidden = !dataHidden;
+            showMoreDataBtn.textContent = dataHidden ? "See More" : "See Less";
         }
 
-        // Initially hide extra cards
-        toggleCards();
-
-        // Toggle cards visibility on button click
-        showMoreBtn.addEventListener("click", function() {
-            toggleCards();
-         });
+        function toggleCourseCards() {
+            for (var i = 3; i < courseCards.length; i++) {
+                courseCards[i].classList.toggle('hidden');
+                courseCards[i].style.display =courseHidden? "block" : 'none';
+            }
+            courseHidden = !courseHidden;
+            showMoreCoursesBtn.textContent = courseHidden ? "See More" : "See Less";
+        }
     });
+
 
 
     </script>
