@@ -1,5 +1,5 @@
 
-<?php  $projects = file_get_contents("project_card.json");
+<?php  $projects = file_get_contents("sections/project_card.json");
 
        $projects = json_decode($projects);    ?>
 

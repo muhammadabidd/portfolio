@@ -103,174 +103,27 @@
 
 
     <!--EXPERIENCE START-->
-        <?php include("experience.php")  ?>
+        <?php include("sections/experience.php")  ?>
     <!--EXPERIENCE END-->
 
-
-     <!-- CERTIFICATION START -->
-     <div class="certification-section section"  id="certification">
-        <div class="content content-certification">
-            <div class="sub">
-                <h3>03. My Certification</h>
-            </div>
-
-            <div class="flexbox-container flexbox-certification">
-
-                <?php for ($i=0; $i < 3; $i++) : ?>
-                    <a href="http://">
-                    <div class="flexbox-item flexbox-item-data">
-                    
-                        <div class="flexbox-atasbawah flexbox-atas">
-                            <div class="kiri">
-                                <img src="img/certification/data_analyst_associate_badge.png" alt="">
-                            </div>
-
-                            <div class="kanan">
-                                <h4>Investigating  Netflix Movie around the world Value</h4>
-                                <p>Nov 2022</p>
-                            </div>
-                            
-                        </div>
-
-                        <div class="flexbox-atasbawah">
-                            <div class="project-tag">
-                                <ul>
-                                    <li>AI</li>
-                                    <li>Python</li>
-                                    <li>SNS</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    
-                    </div>
-                    </a>
-
-                <?php endfor;?>
-            </div>
-
-        </div>
-    </div>
+    <!-- CERTIFICATION START -->
+        <?php include("sections/certifications.php")  ?>
     <!-- CERTIFICATION END -->
 
     <!--PROJECT START-->
-        <?php include("project_card.php")  ?>
+        <?php include("sections/project_card.php")  ?>
     <!--PROJECT END-->
 
     <!-- DATA PROJECTS START -->
-    <div class="data-section section"  id="data">
-        <div class="content content-data">
-            <div class="sub">
-                <h3>04. Data Project</h>
-            </div>
-
-            <div class="flexbox-container flexbox-data">
-
-                <?php for ($i=0; $i < 6; $i++) : ?>
-                    <a href="http://">
-                    <div class="flexbox-item flexbox-item-data">
-                    
-                        <div class="flexbox-atasbawah">
-                            <h4>Investigating  Netflix Movie around the world Value</h4>
-                        </div>
-
-                        <div class="flexbox-atasbawah">
-                            <div class="project-tag">
-                                <ul>
-                                    <li>AI</li>
-                                    <li>Python</li>
-                                    <li>SNS</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    
-                    </div>
-                    </a>
-
-                <?php endfor;?>
-            </div>
-
-        </div>
-    </div>
+        <?php include("sections/data.php")  ?>
     <!-- DATA PROJECTS END -->
 
-     <!-- COURSES TAKEN START -->
-        <div class="courses-section section"  id="courses">
-        <div class="content content-courses">
-            <div class="sub">
-                <h3>06. Courses Taken</h>
-            </div>
-
-            <div class="flexbox-container flexbox-courses">
-
-                <?php for ($i=0; $i < 6; $i++) : ?>
-                    <a href="http://">
-                    <div class="flexbox-item flexbox-item-data">
-                    
-                        <div class="flexbox-atasbawah">
-                            <h4>Investigating  Netflix Movie around the world Value</h4>
-                        </div>
-
-                        <div class="flexbox-atasbawah">
-                            <div class="project-tag">
-                                <ul>
-                                    <li>AI</li>
-                                    <li>Python</li>
-                                    <li>SNS</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    
-                    </div>
-                    </a>
-
-                <?php endfor;?>
-            </div>
-
-        </div>
-    </div>
+    <!-- COURSES TAKEN START -->
+        <?php include("sections/course.php")  ?>
     <!-- COURSES TAKEN END -->
 
     <!-- VIDEO START -->
-    <div class="video-section section"  id="video">
-        <div class="content content-video">
-            <div class="sub">
-                <h3>05. Video Lesson</h>
-            </div>
-
-            <div class="flexbox-container flexbox-video">
-
-                <?php for ($i=0; $i < 6; $i++) : ?>
-                    <a href="http://">
-                    <div class="flexbox-item flexbox-item-data">
-                    
-                        <div class="flexbox-atasbawah">
-                            <img src="img/thumbnail/01.webp" alt="">
-                            <h4>Investigating  Netflix Movie around the world Value</h4>
-                            <p>02 Nov 2024</p>
-                        </div>
-
-                        <div class="flexbox-atasbawah">
-                            <div class="project-tag">
-                                <ul>
-                                    <li>AI</li>
-                                    <li>Python</li>
-                                    <li>SNS</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    
-                    </div>
-                    </a>
-
-                <?php endfor;?>
-            </div>
-
-        </div>
-    </div>
+        <?php include("sections/video.php")  ?>
     <!-- VIDEO END -->
 
     

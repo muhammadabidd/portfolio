@@ -1,5 +1,5 @@
 
-<?php  $experiences = file_get_contents("experience.json");
+<?php  $experiences = file_get_contents("sections/experience.json");
 
        $experiences = json_decode($experiences);    ?>
 
