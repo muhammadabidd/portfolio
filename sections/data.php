@@ -1,4 +1,16 @@
-<!-- DATA PROJECTS START -->
+
+<?php  $experiences = file_get_contents("sections/data.json");
+
+       $experiences = json_decode($experiences);    ?>
+
+
+
+
+
+
+
+
+
 <div class="data-section section"  id="data">
         <div class="content content-data">
             <div class="sub">
@@ -33,5 +45,4 @@
             </div>
 
         </div>
-    </div>
-    <!-- DATA PROJECTS END -->
+</div>

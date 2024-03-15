@@ -1,4 +1,16 @@
-<!-- VIDEO START -->
+
+<?php  $experiences = file_get_contents("sections/video.json");
+
+       $experiences = json_decode($experiences);    ?>
+
+
+
+
+
+
+
+
+
 <div class="video-section section"  id="video">
         <div class="content content-video">
             <div class="sub">
@@ -35,5 +47,4 @@
             </div>
 
         </div>
-    </div>
-    <!-- VIDEO END -->
+</div>

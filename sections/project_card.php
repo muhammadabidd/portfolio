@@ -5,7 +5,7 @@
 
 
 
-<!-- PROJECT START -->
+
 <div class="project-section section" id="project">
         <div class="content content-project">
             <div class="sub">
@@ -46,5 +46,4 @@
 
 
         </div>
-    </div>
-    <!-- PROJECT END -->
+</div>

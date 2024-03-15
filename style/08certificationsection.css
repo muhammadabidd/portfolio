@@ -9,7 +9,16 @@
     margin-left: 35px;
 }
 
+.certification-section img{
+    width: 75px;
+}
+
 .certification-section h4{
     margin-bottom: 10px;
     font-size: 20px;
+
+}
+
+.certification-section .kanan p{
+    margin-bottom: 10px;
 }

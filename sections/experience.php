@@ -6,7 +6,7 @@
 
 
 
-<!--EXPERIENCE START-->
+
 <div class="experience-section section"  id="experience">
         <div class="content content-experience">
             <div class="sub">
@@ -43,6 +43,6 @@
             </div>
             <div class="clear"></div>
         </div>
-    </div>
-<!--EXPERIENCE END-->
+</div>
+
 

@@ -1,4 +1,16 @@
-<!-- CERTIFICATION START -->
+
+<?php  $certifications = file_get_contents("sections/certifications.json");
+
+       $certifications = json_decode($certifications);    ?>
+
+
+
+
+
+
+
+
+
 <div class="certification-section section"  id="certification">
         <div class="content content-certification">
             <div class="sub">
@@ -7,29 +19,25 @@
 
             <div class="flexbox-container flexbox-certification">
 
-                <?php for ($i=0; $i < 3; $i++) : ?>
-                    <a href="http://">
+                <?php foreach ($certifications as $cert) : ?>
+                    <a href="<?php echo "$cert->link"?>">
                     <div class="flexbox-item flexbox-item-data">
                     
                         <div class="flexbox-atasbawah flexbox-atas">
                             <div class="kiri">
-                                <img src="img/certification/data_analyst_associate_badge.png" alt="">
+                                <img src="<?php echo "$cert->img"?>" alt="">
                             </div>
 
                             <div class="kanan">
-                                <h4>Investigating  Netflix Movie around the world Value</h4>
-                                <p>Nov 2022</p>
+                                <h4><?php echo "$cert->title"?></h4>
+                                <p><?php echo "$cert->issued"?></p>
                             </div>
                             
                         </div>
 
                         <div class="flexbox-atasbawah">
                             <div class="project-tag">
-                                <ul>
-                                    <li>AI</li>
-                                    <li>Python</li>
-                                    <li>SNS</li>
-                                </ul>
+                                <p><?php echo "$cert->tag"?></p>
                             </div>
                         </div>
 
@@ -37,9 +45,8 @@
                     </div>
                     </a>
 
-                <?php endfor;?>
+                <?php endforeach;?>
             </div>
 
         </div>
-    </div>
-    <!-- CERTIFICATION END -->
+</div>

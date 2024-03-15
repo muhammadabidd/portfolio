@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Data Analyst Associate",
+        "issued" : "Jan 2024",
+        "tag" : "Datacamp, Pandas, SQL, EDA", 
+        "link" : "https://www.datacamp.com/certificate/DAA0019966502992#", 
+        "img" : "img/certification/data_analyst_associate_badge.png"
+    }, 
+
+    {
+        "title": "Data Scientist Associate",
+        "issued" : "Mar 2024",
+        "tag" : "Datacamp, Pandas, Numpy, SQL, EDA, Machine Learning",
+        "link" : "https://www.datacamp.com/certificate/DSA0014669494882",
+        "img" : "img/certification/data_scientist_associate_banner.png"
+    }
+
+
+
+
+
+]

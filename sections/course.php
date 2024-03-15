@@ -1,4 +1,19 @@
-<!-- COURSES TAKEN START -->
+
+<?php  $experiences = file_get_contents("sections/course.json");
+
+       $experiences = json_decode($experiences);    ?>
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="courses-section section"  id="courses">
         <div class="content content-courses">
             <div class="sub">
@@ -33,5 +48,4 @@
             </div>
 
         </div>
-    </div>
-    <!-- COURSES TAKEN END -->
+</div>
