@@ -1,155 +1,224 @@
 [
-    {   "id" : 1,
-        "title": "The GitHub History of the Scala Language",
-        "tag" : "Datacamp, SQL", 
-        "link" : "https://app.datacamp.com/workspace/w/d8db7276-84b0-4c5a-aaae-8b7e13a8ed35/"
-    }, 
-    {"id" : 2,
-    "title": "Investigating Netflix Movies and Guest Stars in The Office",
-    "tag" : "Datacamp, Python, Pandas, Matplotlib", 
-    "link" : "https://app.datacamp.com/workspace/w/4f3852dc-756b-4d6f-ae3f-535931bb2985/"
-    },
-
-    {"id" : 3,
-    "title": "Consolidating Employee Data",
-    "tag" : "Datacamp, Python, Pandas", 
-    "link" : "https://app.datacamp.com/workspace/w/73477912-bae9-465c-bf16-8192a7448175"
-    },
-
-    {"id" : 4,
-    "title": "Exploring Airbnb Market Trend",
-    "tag" : "", 
-    "link" : "https://app.datacamp.com/workspace/w/496b504c-c152-4dd8-849b-c6aaea355519"
-    },
-
-    {"id" : 5,
-    "title": "Analyzing Online Sport Revenue",
-    "tag" : "", 
-    "link" : "https://app.datacamp.com/workspace/w/4d2de352-bc46-4919-8fee-ef3f670f69fb"
-    },
-
-    {"id" : 6,
-    "title": "Exploring NYC Public School Test Result Scores",
-    "tag" : "", 
-    "link" : "https://app.datacamp.com/workspace/w/f42e9c53-e18c-4651-94d5-6f001c34a2af"
-    },
-    {"id" : 7,
-    "title": "Customer Analytics: Preparing Data for Modeling",
-    "tag" : "", 
-    "link" : "https://app.datacamp.com/workspace/w/06699963-e88f-4111-8381-2af09e8a6317"
-    }, 
 
     {"id" : 8,
     "title": "Hypothesis Testing with Men's and Women's Soccer Matches",
-    "tag" : "", 
+    "tag" : "Datacamp, Python, Hypothesis Testing, Statistics", 
+    "star" : true,
     "link" : "https://app.datacamp.com/workspace/w/a90ea905-2e7c-47a8-a816-526946762422"
-    },
-
-    {"id" : 9,
-    "title": "Cleaning Bank Marketing Campaign Data",
-    "tag" : "", 
-    "link" : "https://app.datacamp.com/workspace/w/765c85b8-529e-4d78-93e5-4745e1dd98d2"
     },
 
     {"id" : 10,
     "title": "Modeling Car Insurance Claim Outcomes ",
-    "tag" : "", 
+    "tag" : "Datacamp, Python, Pandas", 
+    "star" : true,
     "link" : "https://app.datacamp.com/workspace/w/0061338d-6d3b-4bdb-b74d-5e624179e8fd"
-    },
-
-    {"id" : 11,
-    "title": "Investigating Netflix Movies",
-    "tag" : "", 
-    "link" : "https://app.datacamp.com/workspace/w/4f3852dc-756b-4d6f-ae3f-535931bb2985"
     },
 
     {"id" : 12,
     "title": "Data Driven Product Management: Conducting a Market Analysis",
-    "tag" : "", 
+    "tag" : "Datacamp, Python, Pandas, Matplotlib, Seaborn", 
+    "star" : true,
     "link" : "https://app.datacamp.com/workspace/w/d2cd2190-c4ba-4d28-9060-f09079af2abd"
-    },
-
-    {"id" : 13,
-    "title": "What's in an Avocado Toast: A Supply Chain Analysis ",
-    "tag" : "", 
-    "link" : "https://app.datacamp.com/workspace/w/3b0c79ec-264a-456b-bae3-85f940a90ab8"
     },
 
     {"id" : 14,
     "title": "Predictive Modeling for Agriculture",
-    "tag" : "", 
+    "tag" : "Datacamp, Python, Machine Learning Modelling",
+    "star" : true, 
     "link" : "https://app.datacamp.com/workspace/w/bc6713ef-9a38-459a-9a6d-1a43e47a3bf1"
     },
 
     {"id" : 15,
     "title": "Hypothesis Testing in Healthcare",
-    "tag" : "", 
+    "tag" : "Datacamp, Python, Hypothesis Testing, Statistics", 
+    "star" : true,
     "link" : "https://app.datacamp.com/workspace/w/cf868b48-cd2b-428f-84ec-66e32e5a8257"
-    },          
+    },   
+
     {"id" : 16,
         "title": "Predicting Movie Rental Durations",
-        "tag" : "", 
+        "tag" : "Datacamp, Python, Machine Learning Modelling", 
+        "star" : true,
         "link" : "https://app.datacamp.com/workspace/w/cad497b1-9a40-47f0-bb2f-36c01d8a600c"
     },
+
     {"id" : 17,
     "title": "Clustering Antarctic Penguin Species",
-    "tag" : "", 
+    "tag" : "Datacamp, Python, Machine Learning Modelling", 
+    "star" : true,
     "link" : "https://app.datacamp.com/workspace/w/143e0bda-f4b3-45be-bc22-7a65b910e37c"
-},
-{"id" : 18,
-"title": "Analyzing Crime in Los Angeles",
-"tag" : "", 
-"link" : "https://app.datacamp.com/workspace/w/0b8b6bab-cd0f-4964-8c8f-c161e20ac987"
-},
-{"id" : 19,
-"title": "Visualizing the History of Nobel Prize Winners",
-"tag" : "", 
-"link" : "https://app.datacamp.com/workspace/w/b8d85379-7e47-4558-9430-3115fe6517d7"
-},
-{"id" : 20,
-"title": "Inspecting Electric Vehicle Charging Trends",
-"tag" : "", 
-"link" : "https://app.datacamp.com/workspace/w/8d5b11ca-83d9-40ca-8fd0-96041cb84985"
-},
-{"id" : 21,
-"title": "Getting a Good Night's Sleep",
-"tag" : "", 
-"link" : "https://app.datacamp.com/workspace/w/267fc6fa-a36c-4ed0-ade4-b2ad6c53ae1f"
-},
-{"id" : 22,
-"title": "What and Where are the World's Oldest Businesses",
-"tag" : "Datacamp, SQL", 
-"link" : ""
-},
-{"id" : 23,
-"title": "When Was the Golden Age of Video Games?",
-"tag" : "Datacamp, SQL", 
-"link" : ""
-},
-{"id" : 24,
-"title": "Analyzing American Baby Name Trends",
-"tag" : "Datacamp, SQL", 
-"link" : ""
-},
-{"id" : 25,
-"title": "Analyzing Unicorn Companies",
-"tag" : "Datacamp, SQL", 
-"link" : ""
-},
-{"id" : 26,
-"title": "Analyzing Industry Carbon Emissions",
-"tag" : "Datacamp, SQL", 
-"link" : ""
-},
-{"id" : 27,
-"title": "Analyze International Debt Statistics",
-"tag" : "Datacamp, SQL", 
-"link" : ""
-},
-{"id" : 28,
-"title": "When Was the Golden Era of Video Games?",
-"tag" : "Datacamp, SQL", 
-"link" : ""
-}
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {"id" : 7,
+    "title": "Customer Analytics: Preparing Data for Modeling",
+    "tag" : "Datacamp, Python", 
+    "star" : false,
+    "link" : "https://app.datacamp.com/workspace/w/06699963-e88f-4111-8381-2af09e8a6317"
+    }, 
+
+    {   "id" : 1,
+        "title": "The GitHub History of the Scala Language",
+        "tag" : "Datacamp, SQL", 
+        "star" : false,
+        "link" : "https://app.datacamp.com/workspace/w/d8db7276-84b0-4c5a-aaae-8b7e13a8ed35/"
+    }, 
+
+    {"id" : 2,
+    "title": "Investigating Netflix Movies and Guest Stars in The Office",
+    "tag" : "Datacamp, Python, Pandas, Matplotlib", 
+    "star" : false,
+    "link" : "https://app.datacamp.com/workspace/w/4f3852dc-756b-4d6f-ae3f-535931bb2985/"
+    },
+
+    {"id" : 3,
+    "title": "Consolidating Employee Data",
+    "tag" : "Datacamp, Python, Pandas",
+    "star" : false, 
+    "link" : "https://app.datacamp.com/workspace/w/73477912-bae9-465c-bf16-8192a7448175"
+    },
+
+    {"id" : 4,
+    "title": "Exploring Airbnb Market Trend",
+    "tag" : "Datacamp, Python", 
+    "star" : false,
+    "link" : "https://app.datacamp.com/workspace/w/496b504c-c152-4dd8-849b-c6aaea355519"
+    },
+
+    {"id" : 5,
+    "title": "Analyzing Online Sport Revenue",
+    "tag" : "Datacamp, Python", 
+    "star" : false,
+    "link" : "https://app.datacamp.com/workspace/w/4d2de352-bc46-4919-8fee-ef3f670f69fb"
+    },
+
+    {"id" : 6,
+    "title": "Exploring NYC Public School Test Result Scores",
+    "tag" : "Datacamp, Python", 
+    "star" : false,
+    "link" : "https://app.datacamp.com/workspace/w/f42e9c53-e18c-4651-94d5-6f001c34a2af"
+    },
+
+
+
+
+
+    {"id" : 9,
+    "title": "Cleaning Bank Marketing Campaign Data",
+    "tag" : "Datacamp, Python, Pandas, Data Cleaning", 
+    "star" : false,
+    "link" : "https://app.datacamp.com/workspace/w/765c85b8-529e-4d78-93e5-4745e1dd98d2"
+    },
+
+
+
+    {"id" : 11,
+    "title": "Investigating Netflix Movies",
+    "tag" : "Datacamp, Python, Pandas", 
+    "star" : false,
+    "link" : "https://app.datacamp.com/workspace/w/4f3852dc-756b-4d6f-ae3f-535931bb2985"
+    },
+
+
+
+    {"id" : 13,
+    "title": "What's in an Avocado Toast: A Supply Chain Analysis ",
+    "tag" : "Datacamp, Python", 
+    "star" : false,
+    "link" : "https://app.datacamp.com/workspace/w/3b0c79ec-264a-456b-bae3-85f940a90ab8"
+    },
+
+
+    {"id" : 18,
+    "title": "Analyzing Crime in Los Angeles",
+    "tag" : "Datacamp, Python, Pandas", 
+    "star" : false,
+    "link" : "https://app.datacamp.com/workspace/w/0b8b6bab-cd0f-4964-8c8f-c161e20ac987"
+    },
+
+    {"id" : 19,
+    "title": "Visualizing the History of Nobel Prize Winners",
+    "tag" : "Datacamp, Python", 
+    "star" : false,
+    "link" : "https://app.datacamp.com/workspace/w/b8d85379-7e47-4558-9430-3115fe6517d7"
+    },
+
+    {"id" : 20,
+    "title": "Inspecting Electric Vehicle Charging Trends",
+    "tag" : "Datacamp, Python", 
+    "star" : false,
+    "link" : "https://app.datacamp.com/workspace/w/8d5b11ca-83d9-40ca-8fd0-96041cb84985"
+    },
+
+    {"id" : 21,
+    "title": "Getting a Good Night's Sleep",
+    "tag" : "Datacamp, Python", 
+    "star" : false,
+    "link" : "https://app.datacamp.com/workspace/w/267fc6fa-a36c-4ed0-ade4-b2ad6c53ae1f"
+    },
+
+    {"id" : 22,
+    "title": "What and Where are the World's Oldest Businesses",
+    "tag" : "Datacamp, SQL", 
+    "star" : false,
+    "link" : ""
+    },
+
+    {"id" : 23,
+    "title": "When Was the Golden Age of Video Games?",
+    "tag" : "Datacamp, SQL", 
+    "star" : false,
+    "link" : ""
+    },
+
+    {"id" : 24,
+    "title": "Analyzing American Baby Name Trends",
+    "tag" : "Datacamp, SQL", 
+    "star" : false,
+    "link" : ""
+    },
+
+    {"id" : 25,
+    "title": "Analyzing Unicorn Companies",
+    "tag" : "Datacamp, SQL", 
+    "star" : false,
+    "link" : ""
+    },
+
+    {"id" : 26,
+    "title": "Analyzing Industry Carbon Emissions",
+    "tag" : "Datacamp, SQL", 
+    "star" : false,
+    "link" : ""
+    },
+
+    {"id" : 27,
+    "title": "Analyze International Debt Statistics",
+    "tag" : "Datacamp, SQL", 
+    "star" : false,
+    "link" : ""
+    },
+
+    {"id" : 28,
+    "title": "When Was the Golden Era of Video Games?",
+    "tag" : "Datacamp, SQL", 
+    "star" : false,
+    "link" : ""
+    }
 
 ]

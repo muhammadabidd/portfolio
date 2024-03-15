@@ -24,7 +24,9 @@
                     <div class="flexbox-item flexbox-item-data">
                     
                         <div class="flexbox-atasbawah">
+                            <?php if ($data->star):?>
                             <img src="img/premium.png" alt="">
+                            <?php endif?>
                             <h4 class= "flexbox-header"><?php echo $data->title ?></h4>
                         </div>
 
