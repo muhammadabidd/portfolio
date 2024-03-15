@@ -1,27 +1,292 @@
 [
-    {   "id" : 1,
-        "title": "Data Analyst Associate",
-        "tag" : "Datacamp, Pandas, SQL, EDA", 
-        "issued" : "Jan 2022",
-        "link" : "https://www.datacamp.com/certificate/DAA0019966502992#"
-    }, 
+    {
+        "id": 1,
+        "title": "Python Introduction",
+        "tag": "Datacamp, Python, Introduction",
+        "issued": "Aug 2022",
+        "link": "https://drive.google.com/open?id=15-1zljqPWjfci4DDk3RCIeLh1I2CwN9j&authuser=muhammadabidbinrahman98%40gmail.com&usp=drive_fs"
+    },
+    {
+        "id": 2,
+        "title": "Python Data Science Toolbox (part 1)",
+        "tag": "Datacamp, Python, Data Science",
+        "issued": "Aug 2022",
+        "link": "https://drive.google.com/open?id=14zIbdibVb3wjx0ZHiWFVMa1lZmuUnfYp&authuser=muhammadabidbinrahman98%40gmail.com&usp=drive_fs"
+    },
+    {
+        "id": 3,
+        "title": "Data Manipulation with Pandas",
+        "tag": "Datacamp, Pandas, Data Manipulation",
+        "issued": "Sep 2022",
+        "link": "https://drive.google.com/open?id=14sQcVizPaSXxxgypr1Kjdcn4mAnI7vkZ&authuser=muhammadabidbinrahman98%40gmail.com&usp=drive_fs"
+    },
+    {
+        "id": 4,
+        "title": "Introduction to Data Visualization with Matplotlib",
+        "tag": "Datacamp, Python, Matplotlib, Data Visualization",
+        "issued": "Sep 2022",
+        "link": "https://drive.google.com/open?id=14cm5Sle06XlwamxLMdtzk7rbJdWF8psk&authuser=muhammadabidbinrahman98%40gmail.com&usp=drive_fs"
+    },
+    {
+        "id": 5,
+        "title": "Introduction to Importing data in Python",
+        "tag": "Datacamp, Python, Data Import",
+        "issued": "Sep 2022",
+        "link": "https://drive.google.com/open?id=14bbNNQ2XEtwAmzpjjVlWQuAchDFC-Xob&authuser=muhammadabidbinrahman98%40gmail.com&usp=drive_fs"
+    },
+    {
+        "id": 6,
+        "title": "Intermediate Python",
+        "tag": "Datacamp, Python, Intermediate",
+        "issued": "Sep 2022",
+        "link": "https://drive.google.com/open?id=15XS3P4RfBbue3vmJNO0KCPTKGWP_qLUk&authuser=muhammadabidbinrahman98%40gmail.com&usp=drive_fs"
+    },
+    {
+        "id": 7,
+        "title": "Introduction to Data Visualization with Seaborn",
+        "tag": "Datacamp, Python, Seaborn, Data Visualization",
+        "issued": "Sep 2022",
+        "link": "https://drive.google.com/open?id=15VVsGR_1ZlNQcQPe2xZd4idx88LO_Brx&authuser=muhammadabidbinrahman98%40gmail.com&usp=drive_fs"
+    },
+    {
+        "id": 8,
+        "title": "Intermediate Importing Data in Python",
+        "tag": "Datacamp, Python, Intermediate, Data Import",
+        "issued": "Sep 2022",
+        "link": "https://drive.google.com/open?id=15UzLh_hSlHIixa_0oyN20TqpJMvhkgxa&authuser=muhammadabidbinrahman98%40gmail.com&usp=drive_fs"
+    },
+    {
+        "id": 9,
+        "title": "Cleaning Data in Python",
+        "tag": "Datacamp, Python, Data Cleaning",
+        "issued": "Sep 2022",
+        "link": "https://drive.google.com/open?id=15KuSVJkC49R2puyVTD5cvBZXdpOvqNaE&authuser=muhammadabidbinrahman98%40gmail.com&usp=drive_fs"
+    },
+    {
+        "id": 10,
+        "title": "Intermediate SQL Queries",
+        "tag": "Datacamp, SQL, Intermediate",
+        "issued": "Nov 2021",
+        "link": "https://drive.google.com/open?id=15I_VWQudePhzNPlrdmOobnuPjeB30EZM&authuser=muhammadabidbinrahman98%40gmail.com&usp=drive_fs"
+    },
+    {
+        "id": 11,
+        "title": "Data Manipulation in SQL",
+        "tag": "Datacamp, SQL, Data Manipulation",
+        "issued": "Sep 2022",
+        "link": "https://drive.google.com/open?id=15CQkPqCnQHvWFk_GkM6yo0ydrWeiD8bN&authuser=muhammadabidbinrahman98%40gmail.com&usp=drive_fs"
+    },
+    {
+        "id": 12,
+        "title": "SQL for Joining Data",
+        "tag": "Datacamp, SQL, Data Joining",
+        "issued": "Aug 2022",
+        "link": "https://drive.google.com/open?id=150Or3Wue9sF33ezHeSRb1ic6-E7y3Brs&authuser=muhammadabidbinrahman98%40gmail.com&usp=drive_fs"
+    },
 
-    {"id" : 2,
-        "title": "Data Analyst Associate",
-        "tag" : "Datacamp, Pandas, SQL, EDA", 
-        "issued" : "Jan 2022",
-        "link" : "https://www.datacamp.com/certificate/DAA0019966502992#"
-    }, 
-
-    {"id" : 3,
-        "title": "Data Analyst Associate",
-        "tag" : "Datacamp, Pandas, SQL, EDA", 
-        "issued" : "Jan 2022",
-        "link" : "https://www.datacamp.com/certificate/DAA0019966502992#"
-    }
-
-
-
-
-
+        {
+            "id": 13,
+            "title": "Introduction to Data Science in Python",
+            "tag": "Datacamp, Python, Data Science",
+            "issued": "Sep 2022",
+            "link": "https://drive.google.com/open?id=15_sb5CF2FUaFAiLquz6uvAGb-oWSIKZg&authuser=muhammadabidbinrahman98%40gmail.com&usp=drive_fs"
+        },
+        {
+            "id": 14,
+            "title": "Joining Data with Pandas",
+            "tag": "Datacamp, Pandas, Data Manipulation",
+            "issued": "Sep 2022",
+            "link": "https://drive.google.com/open?id=14aN2jVJnkl3bimXMVCafsZObTdlZORUk&authuser=muhammadabidbinrahman98%40gmail.com&usp=drive_fs"
+        },
+        {
+            "id": 15,
+            "title": "Introduction to Statistics in Python",
+            "tag": "Datacamp, Python, Statistics",
+            "issued": "Nov 2022",
+            "link": "https://www.datacamp.com/statement-of-accomplishment/course/eba4b209a8ec4dbe5d1cc33868b0e07b32ee5743"
+        },
+        {
+            "id": 16,
+            "title": "Machine Learning with Scikit-learn",
+            "tag": "Datacamp, Python, Machine Learning",
+            "issued": "Nov 2022",
+            "link": "https://www.datacamp.com/statement-of-accomplishment/course/1d61995a46d425eeca9422a456d979d7d278aed6"
+        },
+        {
+            "id": 17,
+            "title": "Exploratory Data Analysis in Python",
+            "tag": "Datacamp, Python, Data Analysis",
+            "issued": "Nov 2022",
+            "link": "https://www.datacamp.com/statement-of-accomplishment/course/bac5dfd58c0cd15c599ad76ee77cd4cdc83d859c"
+        },
+        {
+            "id": 18,
+            "title": "Introduction to Deep Learning in Python",
+            "tag": "Datacamp, Python, Deep Learning",
+            "issued": "Nov 2022",
+            "link": "https://www.datacamp.com/statement-of-accomplishment/course/d1468edfbf8de003abc9ff44ac5981ce29175396"
+        },
+        {
+            "id": 19,
+            "title": "Python Data Science Toolbox 2",
+            "tag": "Datacamp, Python, Data Science",
+            "issued": "Dec 2022",
+            "link": "https://www.datacamp.com/statement-of-accomplishment/course/a22ae8f91b8f3c89fc06484c6fdc9bc4dd1de53e"
+        },
+        {
+            "id": 20,
+            "title": "Analyzing Police Activity with pandas",
+            "tag": "Datacamp, Pandas, Data Analysis",
+            "issued": "May 2023",
+            "link": "https://www.datacamp.com/statement-of-accomplishment/course/71fe844dc59ab41647cd4666eb1a80d713220cd0"
+        },
+        {
+            "id": 21,
+            "title": "Exploratory Data Anaylis in Python",
+            "tag": "Datacamp, Python, Data Analysis",
+            "issued": "Jan 2024",
+            "link": "https://www.datacamp.com/statement-of-accomplishment/course/536b734eaade4b54ca06232d8124bd0328a3874f?raw=1"
+        },
+        {
+            "id": 22,
+            "title": "Data Analyst with Python",
+            "tag": "Datacamp, Python, Data Analysis",
+            "issued": "Jun 2023",
+            "link": "https://www.datacamp.com/statement-of-accomplishment/track/1384aefe3d7d5b4888d9f88d99fe8708fc34ef76?raw=1"
+        },
+        {
+            "id": 23,
+            "title": "Introduction to Database in Python",
+            "tag": "Datacamp, Python, Database",
+            "issued": "June 2023",
+            "link": "https://www.datacamp.com/statement-of-accomplishment/course/5759c890e2a8be8939314f3e6231f73dc7f034de?raw=1"
+        },
+        {
+            "id": 24,
+        "title": "Object-Oriented Programming in Python",
+        "tag": "Datacamp, Python, OOP",
+        "issued": "June 2023",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/9a09d21f3fa68e44243d38f6fcb0cd203ef604da?raw=1"
+    },
+    {
+        "id": 25,
+        "title": "Introduction to Relational Databases in SQL",
+        "tag": "Datacamp, SQL, Database",
+        "issued": "May 2023",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/12e12f8f26279105dd3997e26f80845749c4259d?raw=1"
+    },
+    {
+        "id": 26,
+        "title": "Streamlined Data Ingestion with pandas",
+        "tag": "Datacamp, Pandas, Data Manipulation",
+        "issued": "May 2023",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/6243a621597902b24e8887482641e317bcc37b77?raw=1"
+    },
+    {
+        "id": 27,
+        "title": "Exploratory Data Analysis in SQL",
+        "tag": "Datacamp, SQL, Data Analysis",
+        "issued": "Jan 2024",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/536b734eaade4b54ca06232d8124bd0328a3874f?raw=1"
+    },
+    {
+        "id": 28,
+        "title": "Functions for Manipulating Data in PostgreSQL",
+        "tag": "Datacamp, SQL, Data Manipulation",
+        "issued": "Jan 2024",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/7ce46c058a51d0aea7c612d0252b42ce656b3ce3?raw=1"
+    },
+    {
+        "id": 29,
+        "title": "Data Analyst Associate Certificate",
+        "tag": "Datacamp, Data Analyst",
+        "issued": "Jan 2022",
+        "link": "https://www.datacamp.com/certificate/DAA0019966502992#"
+    },
+    {
+        "id": 30,
+        "title": "Supervised Learning with scikit-learn",
+        "tag": "Datacamp, Machine Learning, Python",
+        "issued": "Nov 2022",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/1d61995a46d425eeca9422a456d979d7d278aed6?raw=1"
+    },
+    {
+        "id": 31,
+        "title": "Machine Learning with Tree-Based Models in Python",
+        "tag": "Datacamp, Machine Learning, Python",
+        "issued": "Feb 2024",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/469d5deec57b6f8788c1a38364999d0ec31449dd?raw=1"
+    },
+    {
+        "id": 32,
+        "title": "Unsupervised Learning in Python",
+        "tag": "Datacamp, Machine Learning, Python",
+        "issued": "Feb 2024",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/7aeef4f24c318075c33461d3539cf2e2ad4c7e1e?raw=1"
+    },
+    {
+        "id": 33,
+        "title": "Hyphotesist Testing in Python",
+        "tag": "Datacamp, Python, Statistics",
+        "issued": "Jan 2024",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/0de24de95d44605d43c13194d8b0f32640ad83f4?raw=1"
+    },
+    {
+        "id": 34,
+        "title": "Sampling in Python",
+        "tag": "Datacamp, Python, Statistics",
+        "issued": "Jan 2024",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/fca502ff9f9bf72b5202c0fc26a4099bb623633f?raw=1"
+    },
+    {
+        "id": 35,
+        "title": "Introduction to Regression with statsmodels in Python",
+        "tag": "Datacamp, Python, Statistics",
+        "issued": "Jan 2024",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/43a79bf3add17e4a54d52e8ef3adc2121e278b36?raw=1"
+    },
+    {
+        "id": 36,
+        "title": "Working with dates and time in Python",
+        "tag": "Datacamp, Python",
+        "issued": "Jan 2024",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/49a640440f4cf43edea598ef0c46c96b047ad485?raw=1"
+    },
+    {
+        "id": 37,
+        "title": "Writing Function in Python",
+        "tag": "Datacamp, Python",
+        "issued": "Jan 2024",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/679298422c943de3459518a5f969bde7cbc1ed65?raw=1"
+    },
+    {
+        "id": 38,
+        "title": "Data Communication Concept",
+        "tag": "Datacamp, Data Communication",
+        "issued": "Jan 2024",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/e862a6c2401e5baa8bdb3bbd7d10b5069709ffe0?raw=1"
+    },
+    {
+        "id": 39,
+        "title": "Working with Categorical Data in Python",
+        "tag": "Datacamp, Python, Data Analysis",
+        "issued": "Jan 2024",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/cc9e871ff52f831327a72c7ec9f2ae6627b29c07?raw=1"
+    },
+    {
+        "id": 40,
+        "title": "Exploratory Data Analysis in Python",
+        "tag": "Datacamp, Python, Data Analysis",
+        "issued": "Jan 2024",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/bd5260d8633cccf69cc53e2b837dfc3151bb8a5c?raw=1"
+    },
+    {
+        "id": 41,
+        "title": "Intermediate Seaborn with Python",
+        "tag": "Datacamp, Python, Data Visualization",
+        "issued": "Jan 2024",
+        "link": "https://www.datacamp.com/statement-of-accomplishment/course/8abd0fb6be7d595531f383dc4dad7e66ca02eba1?raw=1"}
 ]
+
+    
+

@@ -19,10 +19,12 @@
                     
                         <div class="flexbox-atasbawah">
                             <h4 class= "flexbox-header"><?php echo $course->title?></h4>
+                            
                         </div>
 
                         <div class="flexbox-atasbawah">
                             <div class="project-tag">
+                                <p style="font-size: 16px; color:#3abfa3"><?php echo $course->issued?></p>
                                 <p><?php echo $course->tag?></p>
                             </div>
                         </div>
