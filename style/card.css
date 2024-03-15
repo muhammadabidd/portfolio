@@ -34,7 +34,6 @@
     .flexbox-item-data{
         /* width: 250px; */
         min-height: 160px;
-        
 
     }
 
@@ -59,6 +58,15 @@
         min-width: 320px;
     }
 
+    .flexbox-item-data{
+        width: 250px;
+        min-height: 160px;
+
+    }
+
+    .flexbox-item-data h4{
+            margin-top: 0px;
+    }
 }
 
 
@@ -69,6 +77,16 @@
         width: 100%;
         min-width: auto;
 
+    }
+
+    .flexbox-item-data{
+        width: 350px;
+        min-height: 160px;
+
+    }
+
+    .flexbox-item-data h4{
+            margin-top: 0px;
     }
 
 }
