@@ -2,12 +2,12 @@
     {"title":"API Documentation for Data Processing and Modeling",
      "desc":"Building API for data cleansing using Flask. This API will process the inputted text/file so that there are no more unnecessary character in the text so the text will look more tidier.",
      "link":"https://github.com/muhammadabidd/Binar_Gold_Challenge",
-     "tags":["API", "Binar Academy", "Python"]}, 
+     "tags":["API", "", "Python"]}, 
 
      {"title":"Neural Network API",
      "desc":"Neural Network API to determine the sentiment of a given sentences as either positive or negative sentiment. This API use Machine Learning (Neural Network especially) to complete.",
      "link":"https://github.com/muhammadabidd/PlatinumChallenge-Kelompok02",
-     "tags":["Machine Learning", "Python", "Neural Network"]},
+     "tags":["Machine Learning", "Python", "NN"]},
 
      {"title":"Roblox - Squid Game",
      "desc":"This project is a Roblox game called \"Squid Game\" inspired by the popular Netflix series. It features a red light, green light game where players need to freeze during the red light phase to avoid being eliminated",

@@ -24,6 +24,7 @@
                     <div class="flexbox-item flexbox-item-data">
                     
                         <div class="flexbox-atasbawah">
+                            <img src="img/premium.png" alt="">
                             <h4 class= "flexbox-header"><?php echo $data->title ?></h4>
                         </div>
 

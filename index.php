@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="style/animation.css">
     <link rel="stylesheet" href="style/07videosection.css">
     <link rel="stylesheet" href="style/08certificationsection.css">
+    <link rel="stylesheet" href="style/09datasection.css">
     </head>
 <body>
 

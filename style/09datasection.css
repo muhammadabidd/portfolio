@@ -1,0 +1,26 @@
+.data-section{
+    .flexbox-atas {
+        display: flex;
+    }
+    
+}
+
+/* .data-section .kanan{
+    margin-left: 35px;
+} */
+
+.data-section img{
+    width: 50px;
+    margin-bottom :20px;
+
+}
+
+.data-section h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.data-section .kanan p{
+    margin-bottom: 10px;
+}
