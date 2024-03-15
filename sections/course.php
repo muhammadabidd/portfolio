@@ -1,7 +1,7 @@
 
-<?php  $experiences = file_get_contents("sections/course.json");
+<?php  $courses = file_get_contents("sections/course.json");
 
-       $experiences = json_decode($experiences);    ?>
+       $courses = json_decode($courses);    ?>
 
 
 
@@ -22,7 +22,7 @@
 
             <div class="flexbox-container flexbox-courses">
 
-                <?php for ($i=0; $i < 6; $i++) : ?>
+                <?php foreach ($courses as $course) : ?>
                     <a href="http://">
                     <div class="flexbox-item flexbox-item-data">
                     
@@ -44,7 +44,7 @@
                     </div>
                     </a>
 
-                <?php endfor;?>
+                <?php endforeach;?>
             </div>
 
         </div>

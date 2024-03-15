@@ -1,7 +1,7 @@
 
-<?php  $experiences = file_get_contents("sections/data.json");
+<?php  $datas = file_get_contents("sections/data.json");
 
-       $experiences = json_decode($experiences);    ?>
+       $datas = json_decode($datas);    ?>
 
 
 
@@ -14,12 +14,12 @@
 <div class="data-section section"  id="data">
         <div class="content content-data">
             <div class="sub">
-                <h3>04. Data Project</h>
+                <h3>05. Data Project</h>
             </div>
 
             <div class="flexbox-container flexbox-data">
 
-                <?php for ($i=0; $i < 6; $i++) : ?>
+                <?php foreach ($datas as $data) : ?>
                     <a href="http://">
                     <div class="flexbox-item flexbox-item-data">
                     
@@ -29,11 +29,9 @@
 
                         <div class="flexbox-atasbawah">
                             <div class="project-tag">
-                                <ul>
-                                    <li>AI</li>
-                                    <li>Python</li>
-                                    <li>SNS</li>
-                                </ul>
+                                <p>
+                                    asd, asd, asd, as, ads
+                                </p>
                             </div>
                         </div>
 
@@ -41,7 +39,7 @@
                     </div>
                     </a>
 
-                <?php endfor;?>
+                <?php endforeach;?>
             </div>
 
         </div>

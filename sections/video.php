@@ -1,7 +1,7 @@
 
-<?php  $experiences = file_get_contents("sections/video.json");
+<?php  $videos = file_get_contents("sections/video.json");
 
-       $experiences = json_decode($experiences);    ?>
+       $videos = json_decode($videos);    ?>
 
 
 
@@ -19,7 +19,7 @@
 
             <div class="flexbox-container flexbox-video">
 
-                <?php for ($i=0; $i < 6; $i++) : ?>
+            <?php foreach ($videos as $vid) : ?>
                     <a href="http://">
                     <div class="flexbox-item flexbox-item-data">
                     
@@ -43,7 +43,7 @@
                     </div>
                     </a>
 
-                <?php endfor;?>
+                <?php endforeach;?>
             </div>
 
         </div>
