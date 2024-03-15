@@ -200,6 +200,37 @@
     
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+        var cardContainer = document.getElementById("flexbox-courses");
+        var showMoreBtn = document.getElementById("showMoreBtn");
+        console.log(cardContainer)
+        var cards = document.querySelectorAll(".flexbox-container .card");
+        var cardsToShow = 3; // Change this number to adjust how many cards are initially visible
+        var hidden = true;
+
+        console.log(cards)
+
+        // Function to toggle card visibility
+        function toggleCards() {
+            for (var i = cardsToShow; i < cards.length; i++) {
+            cards[i].style.display = hidden ? "block" : "none";
+            }
+            hidden = !hidden;
+            showMoreBtn.textContent = hidden ? "Click to see more" : "Click to see less";
+        }
+
+        // Initially hide extra cards
+        toggleCards();
+
+        // Toggle cards visibility on button click
+        showMoreBtn.addEventListener("click", function() {
+            toggleCards();
+         });
+    });
+
+
     </script>
 
 </body>
