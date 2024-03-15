@@ -24,7 +24,7 @@
                     <div class="flexbox-item flexbox-item-data">
                     
                         <div class="flexbox-atasbawah">
-                            <h4><?php echo $data->title ?></h4>
+                            <h4 class= "flexbox-header"><?php echo $data->title ?></h4>
                         </div>
 
                         <div class="flexbox-atasbawah">

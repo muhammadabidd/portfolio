@@ -29,7 +29,7 @@
                             </div>
 
                             <div class="kanan">
-                                <h4><?php echo "$cert->title"?></h4>
+                                <h4 class= "flexbox-header"><?php echo "$cert->title"?></h4>
                                 <p><?php echo "$cert->issued"?></p>
                             </div>
                             

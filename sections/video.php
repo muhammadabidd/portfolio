@@ -25,7 +25,7 @@
                     
                         <div class="flexbox-atasbawah">
                             <img src="img/thumbnail/01.webp" alt="">
-                            <h4><?php echo $vid->title?></h4>
+                            <h4 class= "flexbox-header"><?php echo $vid->title?></h4>
                             <p><?php echo $vid->released?></p>
                         </div>
 
