@@ -280,7 +280,7 @@
                     videoCards[i].style.display = videoHidden ? "block" : 'none';
                 }
                 videoHidden = !videoHidden;
-                showMoreCoursesBtn.textContent = videoHidden ? "See More" : "See Less";
+                showMoreVideoBtn.textContent = videoHidden ? "See More" : "See Less";
             }
 
 
