@@ -223,31 +223,25 @@
         console.log(dataCards)
         console.log(courseCards)
 
-        // Initially hide extra data project cards
-        // toggleCards(dataCards);
 
-        // Initially hide extra course cards
-        // toggleCards(courseCards);
+
+        // CARA 1
 
         toggleDataCards();
         toggleCourseCards();
 
 
-
-        // Toggle data project cards visibility on button click
         showMoreDataBtn.addEventListener("click", function () {
-            // toggleCards(dataCards);
             toggleDataCards();
         });
 
-        // Toggle course cards visibility on button click
         showMoreCoursesBtn.addEventListener("click", function () {
-            // toggleCards(courseCards);
             toggleCourseCards();
         });
 
         function toggleDataCards() {
-            for (var i = 3; i < dataCards.length; i++) {
+            for (var i = 6; i < dataCards.length; i++) {
+                console.log(dataHidden)
                 dataCards[i].classList.toggle('hidden');
                 dataCards[i].style.display =dataHidden? "block" : 'none';
             }
@@ -256,14 +250,56 @@
         }
 
         function toggleCourseCards() {
-            for (var i = 3; i < courseCards.length; i++) {
+            
+            for (var i = 6; i < courseCards.length; i++) {
                 courseCards[i].classList.toggle('hidden');
                 courseCards[i].style.display =courseHidden? "block" : 'none';
             }
             courseHidden = !courseHidden;
             showMoreCoursesBtn.textContent = courseHidden ? "See More" : "See Less";
         }
+
+
+
+
+
+
+
+
+
+        // CARA 2
+
+        // toggleCards(dataCards, dataHidden, showMoreDataBtn);
+        // toggleCards(courseCards, courseHidden, showMoreCoursesBtn);
+
+
+
+        // showMoreDataBtn.addEventListener("click", function () {
+        //     toggleCards(dataCards, dataHidden, showMoreDataBtn);
+        // });
+
+        // showMoreCoursesBtn.addEventListener("click", function () {
+        //     toggleCards(courseCards, courseHidden, showMoreCoursesBtn);
+        // });
+
+        
+
+
+        // function toggleCards(cards, varhidden, showButton) {
+            
+        //     console.log(varhidden)
+        //     for (var i = 6; i < cards.length; i++) {
+        //         cards[i].classList.toggle('hidden');
+        //         console.log(varhidden)
+        //         cards[i].style.display =varhidden? "block" : 'none';
+        //     }
+        //     varhidden = !varhidden;
+        //     console.log(varhidden)
+        //     showButton.textContent = varhidden ? "See More" : "See Less";
+        // }
     });
+
+
 
 
 
