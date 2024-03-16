@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,7 @@
     <title>Muhammad Abid</title>
 
     <link rel="icon" href="img/Logo-header.png" type="">
-    
+
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/card.css">
     <link rel="stylesheet" href="style/button.css">
@@ -26,7 +27,8 @@
     <link rel="stylesheet" href="style/07videosection.css">
     <link rel="stylesheet" href="style/08certificationsection.css">
     <link rel="stylesheet" href="style/09datasection.css">
-    </head>
+</head>
+
 <body>
 
     <!--HERO START-->
@@ -47,10 +49,10 @@
             <p class="text-pendek1">Hi, My name is</p>
             <h1 class="">Muhammad Abid;</h1>
             <h2 class=""> I Love to learn, teach, and inspect data</h2>
-            
+
             <div class="text-hero">
                 <p class="text-panjang hero-text">
-                   A <span class="green">coding educator</span> with a strong interest for <span class="green">artificial intelligence (AI)</span>. While my main focus is on teaching coding, I am deeply interested in exploring the potential and applications of AI and machine learning. 
+                    A <span class="green">coding educator</span> with a strong interest for <span class="green">artificial intelligence (AI)</span>. While my main focus is on teaching coding, I am deeply interested in exploring the potential and applications of AI and machine learning.
                 </p>
             </div>
 
@@ -64,77 +66,77 @@
     <div class="about-section section" id="about">
         <div class="content ">
             <h3>01. About Me</h>
-            <div class="pemerataan">
-                <div class="left-about">
-                    <p class="text-panjang text-about">
-                        Hello, I'm Abid, a passionate educator with a Bachelor's degree in <span class="green">Mathematics Education</span>. I have a strong affinity for both teaching and mathematics. Throughout my career, I have taught at various schools, including <span class="green">Sekolah Indonesia Jeddah</span> in Saudi Arabia, and currently teach coding at <span class="green"></span>Brightchamps. Additionally, I have created mathematics learning videos for <span class="green">Roboguru</span>, which is a part of <span class="green">Ruangguru</span>. I am continuously expanding my knowledge in <span class="green">AI</span> and <span class="green">machine learning</span> fields and exploring new technologies to enhance my teaching approach.
-                    </p>
-                    <ul class="about_outside">
-                        <ul class="about">
-                            <li>Python</li>
-                            <li>SQLite</li>
-                            <li>Flask & Swagger-UI API</li>
-                            <li>HTML & CSS</li>
-                            <li>R for Data Science</li>
-                            <li>Roblox Studio</li>
-                            <li>Scratch</li>
-                            <li>Thunkable</li>
+                <div class="pemerataan">
+                    <div class="left-about">
+                        <p class="text-panjang text-about">
+                            Hello, I'm Abid, a passionate educator with a Bachelor's degree in <span class="green">Mathematics Education</span>. I have a strong affinity for both teaching and mathematics. Throughout my career, I have taught at various schools, including <span class="green">Sekolah Indonesia Jeddah</span> in Saudi Arabia, and currently teach coding at <span class="green"></span>Brightchamps. Additionally, I have created mathematics learning videos for <span class="green">Roboguru</span>, which is a part of <span class="green">Ruangguru</span>. I am continuously expanding my knowledge in <span class="green">AI</span> and <span class="green">machine learning</span> fields and exploring new technologies to enhance my teaching approach.
+                        </p>
+                        <ul class="about_outside">
+                            <ul class="about">
+                                <li>Python</li>
+                                <li>SQLite</li>
+                                <li>Flask & Swagger-UI API</li>
+                                <li>HTML & CSS</li>
+                                <li>R for Data Science</li>
+                                <li>Roblox Studio</li>
+                                <li>Scratch</li>
+                                <li>Thunkable</li>
+                            </ul>
+
+
+
+                            <ul class="about_second">
+                                <li>Wordpress</li>
+                                <li>Git & Github</li>
+                                <li>Notion & Miro</li>
+                                <li>Visual Studio Code</li>
+                            </ul>
                         </ul>
+                    </div>
+                    <img class="potrait" src="img/Me.png" alt="">
 
-                        
-            
-                        <ul class="about_second">
-                            <li>Wordpress</li>
-                            <li>Git & Github</li>
-                            <li>Notion & Miro</li>
-                            <li>Visual Studio Code</li>
-                        </ul>    
-                    </ul>
                 </div>
-                <img class="potrait" src="img/Me.png" alt="">
-                
-            </div>
 
-            <button class="button hero-button"> <a href="https://www.cakeresume.com/s--SrNBGToK5sS05g9-9ZlODQ--/muhammad-abid-289abf" target="_blank"> Resume</a></button>
-            <button class="button hero-button"> <a href="https://blush-bath-32a.notion.site/c4645315e55a4b49b73ce529097972d9?v=d4208735eb8441199290e6a10bbe4d0e" target="_blank"> Certification</a></button>
-        </div>     
+                <button class="button hero-button"> <a href="https://www.cakeresume.com/s--SrNBGToK5sS05g9-9ZlODQ--/muhammad-abid-289abf" target="_blank"> Resume</a></button>
+                <button class="button hero-button"> <a href="https://blush-bath-32a.notion.site/c4645315e55a4b49b73ce529097972d9?v=d4208735eb8441199290e6a10bbe4d0e" target="_blank"> Certification</a></button>
+        </div>
     </div>
     <!--ABOUT END-->
 
 
 
     <!--EXPERIENCE START-->
-        <?php include("sections/experience.php")  ?>
+    <?php include("sections/experience.php")  ?>
     <!--EXPERIENCE END-->
 
     <!-- CERTIFICATION START -->
-        <?php include("sections/certifications.php")  ?>
+    <?php include("sections/certifications.php")  ?>
     <!-- CERTIFICATION END -->
 
     <!--PROJECT START-->
-        <?php include("sections/project_card.php")  ?>
+    <?php include("sections/project_card.php")  ?>
     <!--PROJECT END-->
 
     <!-- DATA PROJECTS START -->
-        <?php include("sections/data.php")  ?>
+    <?php include("sections/data.php")  ?>
     <!-- DATA PROJECTS END -->
 
     <!-- COURSES TAKEN START -->
-        <?php include("sections/course.php")  ?>
+    <?php include("sections/course.php")  ?>
     <!-- COURSES TAKEN END -->
 
     <!-- VIDEO START -->
-        <?php include("sections/video.php")  ?>
+    <?php include("sections/video.php")  ?>
     <!-- VIDEO END -->
 
-    
+
 
     <!--CONTACT START-->
     <div class="contact-section section" id="contact">
         <div class="content content-contact">
             <h1 class="contact">Get In Touch</h1>
-            <p class="text-panjang text-contact">Currently looking for new opportunities, my inbox is always open. Just say hi, i'll try my best to get back to you!</p> 
-            <button class="button contact-button" ><a href="mailto:muhammmadabidd@gmail.com?body=Hi%20Abid..%0D%0A..%0D%0A.." class="" target="_blank">Say Hi</a></button>
+            <p class="text-panjang text-contact">Currently looking for new opportunities, my inbox is always open. Just say hi, i'll try my best to get back to you!</p>
+            <button class="button contact-button"><a href="mailto:muhammmadabidd@gmail.com?body=Hi%20Abid..%0D%0A..%0D%0A.." class="" target="_blank">Say Hi</a></button>
         </div>
     </div>
     <!--CONTACT END-->
@@ -157,10 +159,10 @@
         <a href="https://api.whatsapp.com/send/?phone=6281273568772&text&type=phone_number&app_absent=0" class="SocialMedia-link" target="_blank"><img class="gambar-kiri-4" src="img/svg/whatsapp.svg" style="height: 18px; width: 18px;" alt="" target="_blank"> </a>
         <div class="vertical-line"></div>
     </div>
-        
+
 
     <div class="SocialMedia-right">
-        <p class="right"><a class = "link-right "href="mailto:muhammmadabidd@gmail.com?body=Hi%20Abid..%0D%0A..%0D%0A.." target="_blank">muhammmadabidd@gmail.com</a></p>
+        <p class="right"><a class="link-right " href="mailto:muhammmadabidd@gmail.com?body=Hi%20Abid..%0D%0A..%0D%0A.." target="_blank">muhammmadabidd@gmail.com</a></p>
         <div class="vertical-line"></div>
     </div>
 
@@ -177,133 +179,117 @@
             <p class="text-footer">@2024</p>
         </div>
     </div>
-    
+
     <!-- FOOTER END -->
 
 
 
-<!--SCRIPT-->
-<script>
-    function openExperience(evt, experienceName) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablinks");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-      }
-      document.getElementById(experienceName).style.display = "block";
-      evt.currentTarget.className += " active";
-    }
-    
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-
-
-
-
-
-
-    
-    document.addEventListener("DOMContentLoaded", function () {
-        // Data Section
-        var showMoreDataBtn = document.getElementById("showMoreDataBtn");
-        var dataCards = document.querySelectorAll("#data .flexbox-container .card");
-
-        // Courses Section
-        var showMoreCoursesBtn = document.getElementById("showMoreCoursesBtn");
-        var courseCards = document.querySelectorAll("#courses .flexbox-container .card");
-
-        var dataHidden = false;
-        var courseHidden = false;
-
-
-        console.log(dataCards)
-        console.log(courseCards)
-
-
-
-        // CARA 1
-
-        // toggleDataCards();
-        // toggleCourseCards();
-
-
-        // showMoreDataBtn.addEventListener("click", function () {
-        //     toggleDataCards();
-        // });
-
-        // showMoreCoursesBtn.addEventListener("click", function () {
-        //     toggleCourseCards();
-        // });
-
-        // function toggleDataCards() {
-        //     for (var i = 6; i < dataCards.length; i++) {
-        //         console.log(dataHidden)
-        //         dataCards[i].classList.toggle('hidden');
-        //         dataCards[i].style.display =dataHidden? "block" : 'none';
-        //     }
-        //     dataHidden = !dataHidden;
-        //     showMoreDataBtn.textContent = dataHidden ? "See More" : "See Less";
-        // }
-
-        // function toggleCourseCards() {
-            
-        //     for (var i = 6; i < courseCards.length; i++) {
-        //         courseCards[i].classList.toggle('hidden');
-        //         courseCards[i].style.display =courseHidden? "block" : 'none';
-        //     }
-        //     courseHidden = !courseHidden;
-        //     showMoreCoursesBtn.textContent = courseHidden ? "See More" : "See Less";
-        // }
-
-
-
-
-
-
-
-
-
-        // CARA 2
-
-        toggleCards(dataCards, dataHidden, showMoreDataBtn);
-        toggleCards(courseCards, courseHidden, showMoreCoursesBtn);
-
-
-
-        showMoreDataBtn.addEventListener("click", function () {
-            toggleCards(dataCards, dataHidden, showMoreDataBtn);
-        });
-
-        showMoreCoursesBtn.addEventListener("click", function () {
-            toggleCards(courseCards, courseHidden, showMoreCoursesBtn);
-        });
-
-        
-
-
-        function toggleCards(cards, varhidden, showButton) {
-            
-            console.log(varhidden)
-            for (var i = 6; i < cards.length; i++) {
-                cards[i].classList.toggle('hidden');
-                console.log(varhidden)
-                cards[i].style.display =varhidden? "block" : 'none';
+    <!--SCRIPT-->
+    <script>
+        function openExperience(evt, experienceName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
             }
-            varhidden = !varhidden;
-            console.log(varhidden)
-            showButton.textContent = varhidden ? "See More" : "See Less";
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(experienceName).style.display = "block";
+            evt.currentTarget.className += " active";
         }
-    });
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
 
 
 
 
 
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // Data Section
+            var showMoreDataBtn = document.getElementById("showMoreDataBtn");
+            var dataCards = document.querySelectorAll("#data .flexbox-container .card");
+
+            // Courses Section
+            var showMoreCoursesBtn = document.getElementById("showMoreCoursesBtn");
+            var courseCards = document.querySelectorAll("#courses .flexbox-container .card");
+
+            // Courses Section
+            var showMoreVideoBtn = document.getElementById("showMoreVideoBtn");
+            var videoCards = document.querySelectorAll("#video .flexbox-container .card");
+
+            var dataHidden = false;
+            var courseHidden = false;
+            var videoHidden = false;
+
+
+
+            console.log(dataCards)
+            console.log(courseCards)
+
+
+
+            // CARA 1
+
+            toggleDataCards();
+            toggleCourseCards();
+            toggleVideoCards();
+
+
+
+            showMoreDataBtn.addEventListener("click", function() {
+                toggleDataCards();
+            });
+
+            showMoreCoursesBtn.addEventListener("click", function() {
+                toggleCourseCards();
+            });
+
+            showMoreVideoBtn.addEventListener("click", function() {
+                toggleVideoCards();
+            });
+
+            function toggleDataCards() {
+                for (var i = 6; i < dataCards.length; i++) {
+                    console.log(dataHidden)
+                    dataCards[i].classList.toggle('hidden');
+                    dataCards[i].style.display = dataHidden ? "block" : 'none';
+                }
+                dataHidden = !dataHidden;
+                showMoreDataBtn.textContent = dataHidden ? "See More" : "See Less";
+            }
+
+            function toggleCourseCards() {
+
+                for (var i = 6; i < courseCards.length; i++) {
+                    courseCards[i].classList.toggle('hidden');
+                    courseCards[i].style.display = courseHidden ? "block" : 'none';
+                }
+                courseHidden = !courseHidden;
+                showMoreCoursesBtn.textContent = courseHidden ? "See More" : "See Less";
+            }
+
+            function toggleVideoCards() {
+
+                for (var i = 6; i < videoCards.length; i++) {
+                    videoCards[i].classList.toggle('hidden');
+                    videoCards[i].style.display = videoHidden ? "block" : 'none';
+                }
+                videoHidden = !videoHidden;
+                showMoreCoursesBtn.textContent = videoHidden ? "See More" : "See Less";
+            }
+
+
+
+
+
+        });
     </script>
 
 </body>
+
 </html>

@@ -20,7 +20,7 @@
             <div class="flexbox-container flexbox-video">
 
             <?php foreach ($videos as $vid) : ?>
-                    <a href="<?php echo $vid->link?>">
+                    <a class="card" href="<?php echo $vid->link?>">
                     <div class="flexbox-item flexbox-item-data">
                     
                         <div class="flexbox-atasbawah">
@@ -41,6 +41,8 @@
 
                 <?php endforeach;?>
             </div>
+
+            <button id="showMoreVideoBtn" class="button" style="margin:auto; display:block; margin-top : 20px;">See More</button>
 
         </div>
 </div>
