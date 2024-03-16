@@ -227,37 +227,37 @@
 
         // CARA 1
 
-        toggleDataCards();
-        toggleCourseCards();
+        // toggleDataCards();
+        // toggleCourseCards();
 
 
-        showMoreDataBtn.addEventListener("click", function () {
-            toggleDataCards();
-        });
+        // showMoreDataBtn.addEventListener("click", function () {
+        //     toggleDataCards();
+        // });
 
-        showMoreCoursesBtn.addEventListener("click", function () {
-            toggleCourseCards();
-        });
+        // showMoreCoursesBtn.addEventListener("click", function () {
+        //     toggleCourseCards();
+        // });
 
-        function toggleDataCards() {
-            for (var i = 6; i < dataCards.length; i++) {
-                console.log(dataHidden)
-                dataCards[i].classList.toggle('hidden');
-                dataCards[i].style.display =dataHidden? "block" : 'none';
-            }
-            dataHidden = !dataHidden;
-            showMoreDataBtn.textContent = dataHidden ? "See More" : "See Less";
-        }
+        // function toggleDataCards() {
+        //     for (var i = 6; i < dataCards.length; i++) {
+        //         console.log(dataHidden)
+        //         dataCards[i].classList.toggle('hidden');
+        //         dataCards[i].style.display =dataHidden? "block" : 'none';
+        //     }
+        //     dataHidden = !dataHidden;
+        //     showMoreDataBtn.textContent = dataHidden ? "See More" : "See Less";
+        // }
 
-        function toggleCourseCards() {
+        // function toggleCourseCards() {
             
-            for (var i = 6; i < courseCards.length; i++) {
-                courseCards[i].classList.toggle('hidden');
-                courseCards[i].style.display =courseHidden? "block" : 'none';
-            }
-            courseHidden = !courseHidden;
-            showMoreCoursesBtn.textContent = courseHidden ? "See More" : "See Less";
-        }
+        //     for (var i = 6; i < courseCards.length; i++) {
+        //         courseCards[i].classList.toggle('hidden');
+        //         courseCards[i].style.display =courseHidden? "block" : 'none';
+        //     }
+        //     courseHidden = !courseHidden;
+        //     showMoreCoursesBtn.textContent = courseHidden ? "See More" : "See Less";
+        // }
 
 
 
@@ -269,34 +269,34 @@
 
         // CARA 2
 
-        // toggleCards(dataCards, dataHidden, showMoreDataBtn);
-        // toggleCards(courseCards, courseHidden, showMoreCoursesBtn);
+        toggleCards(dataCards, dataHidden, showMoreDataBtn);
+        toggleCards(courseCards, courseHidden, showMoreCoursesBtn);
 
 
 
-        // showMoreDataBtn.addEventListener("click", function () {
-        //     toggleCards(dataCards, dataHidden, showMoreDataBtn);
-        // });
+        showMoreDataBtn.addEventListener("click", function () {
+            toggleCards(dataCards, dataHidden, showMoreDataBtn);
+        });
 
-        // showMoreCoursesBtn.addEventListener("click", function () {
-        //     toggleCards(courseCards, courseHidden, showMoreCoursesBtn);
-        // });
+        showMoreCoursesBtn.addEventListener("click", function () {
+            toggleCards(courseCards, courseHidden, showMoreCoursesBtn);
+        });
 
         
 
 
-        // function toggleCards(cards, varhidden, showButton) {
+        function toggleCards(cards, varhidden, showButton) {
             
-        //     console.log(varhidden)
-        //     for (var i = 6; i < cards.length; i++) {
-        //         cards[i].classList.toggle('hidden');
-        //         console.log(varhidden)
-        //         cards[i].style.display =varhidden? "block" : 'none';
-        //     }
-        //     varhidden = !varhidden;
-        //     console.log(varhidden)
-        //     showButton.textContent = varhidden ? "See More" : "See Less";
-        // }
+            console.log(varhidden)
+            for (var i = 6; i < cards.length; i++) {
+                cards[i].classList.toggle('hidden');
+                console.log(varhidden)
+                cards[i].style.display =varhidden? "block" : 'none';
+            }
+            varhidden = !varhidden;
+            console.log(varhidden)
+            showButton.textContent = varhidden ? "See More" : "See Less";
+        }
     });
 
 
