@@ -79,7 +79,6 @@
                                 <li>SQLite</li>
                                 <li>Flask & Swagger-UI API</li>
                                 <li>HTML & CSS</li>
-                                <li>R for Data Science</li>
                                 <li>Roblox Studio</li>
                                 <li>Scratch</li>
                                 <li>Thunkable</li>
@@ -100,7 +99,7 @@
                 </div>
 
                 <button class="button hero-button"> <a href="https://www.cakeresume.com/s--SrNBGToK5sS05g9-9ZlODQ--/muhammad-abid-289abf" target="_blank"> Resume</a></button>
-                <button class="button hero-button"> <a href="https://blush-bath-32a.notion.site/c4645315e55a4b49b73ce529097972d9?v=d4208735eb8441199290e6a10bbe4d0e" target="_blank"> Certification</a></button>
+                <button class="button hero-button"> <a href="https://muhammadabid.notion.site/c4645315e55a4b49b73ce529097972d9?v=d4208735eb8441199290e6a10bbe4d0e&pvs=74" target="_blank"> Certification</a></button>
         </div>
     </div>
     <!--ABOUT END-->
