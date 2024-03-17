@@ -38,8 +38,10 @@
             <ul>
                 <li><a class="heading-list" href="#about">01. About</a></li>
                 <li><a class="heading-list" href="#experience">02. Experience</a></li>
-                <li><a class="heading-list" href="#project">03. Project</a></li>
-                <li><a class="heading-list" href="#contact">04. Contact</a></li>
+                <li><a class="heading-list" href="#certification">03. Certification</a></li>
+                <li><a class="heading-list" href="#project">04 Projects</a></li>
+
+                <li><a class="heading-list" href="#contact">05. Contact</a></li>
             </ul>
             <a href="https://muhammadabidd.github.io/blog/" target="_blank"><button class="mainbutton button"> Blog</button></a>
         </nav>
@@ -149,6 +151,7 @@
             <a href="https://github.com/muhammadabidd" class="SocialMedia-link" target="_blank"><img class="gambar-tengah-2" src="img/svg/github.svg" style="height: 18px; width: 18px;" alt="" target="_blank"> </a>
             <a href="mailto:muhammmadabidd@gmail.com?body=Hi%20Abid..%0D%0A..%0D%0A.." class="SocialMedia-link" target="_blank"><img class="gambar-tengah-3" src="img/svg/email.svg" style="height: 18px; width: 18px;" alt="" target="_blank"> </a>
             <a href="https://api.whatsapp.com/send/?phone=6281273568772&text&type=phone_number&app_absent=0" class="SocialMedia-link" target="_blank"><img class="gambar-tengah-4" src="img/svg/whatsapp.svg" style="height: 18px; width: 18px;" alt="" target="_blank"> </a>
+            <a href="https://twitter.com/muhammmadabidd" class="SocialMedia-link" target="_blank"><img class="gambar-kiri-5" src="img/x.png" style="height: 18px; width: 18px;" alt="" target="_blank"> </a>
         </div>
     </div>
 
@@ -157,6 +160,7 @@
         <a href="https://github.com/muhammadabidd" class="SocialMedia-link" target="_blank"><img class="gambar-kiri-2" src="img/svg/github.svg" style="height: 18px; width: 18px;" alt="" target="_blank"> </a>
         <a href="mailto:muhammmadabidd@gmail.com?body=Hi%20Abid..%0D%0A..%0D%0A.." class="SocialMedia-link" target="_blank"><img class="gambar-kiri-3" src="img/svg/email.svg" style="height: 18px; width: 18px;" alt="" target="_blank"> </a>
         <a href="https://api.whatsapp.com/send/?phone=6281273568772&text&type=phone_number&app_absent=0" class="SocialMedia-link" target="_blank"><img class="gambar-kiri-4" src="img/svg/whatsapp.svg" style="height: 18px; width: 18px;" alt="" target="_blank"> </a>
+        <a href="https://twitter.com/muhammmadabidd" class="SocialMedia-link" target="_blank"><img class="gambar-kiri-5" src="img/x.png" style="height: 18px; width: 18px;" alt="" target="_blank"> </a>
         <div class="vertical-line"></div>
     </div>
 

@@ -14,7 +14,7 @@
 <div class="video-section section"  id="video">
         <div class="content content-video">
             <div class="sub">
-                <h3>07. Video Lesson</h>
+                <h3>04.4. Video Lesson</h>
             </div>
 
             <div class="flexbox-container flexbox-video">

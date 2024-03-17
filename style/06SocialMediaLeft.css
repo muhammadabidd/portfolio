@@ -83,4 +83,14 @@
     content: url(../img/svg/whatsapphover.svg);
 }
 
+.gambar-kiri-5 {
+    content: url(../img/x.png);
+}
+
+
+.gambar-kiri-5:hover {
+    content: url(../img/x-hover.png);
+}
+
+
 

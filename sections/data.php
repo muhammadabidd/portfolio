@@ -14,7 +14,7 @@
 <div class="data-section section"  id="data">
         <div class="content content-data">
             <div class="sub">
-                <h3>05. Data Project</h>
+                <h3>04.2. Data Project</h>
             </div>
 
             <div class="flexbox-container flexbox-data">

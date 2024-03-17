@@ -9,7 +9,7 @@
 <div class="project-section section" id="project">
         <div class="content content-project">
             <div class="sub">
-                <h3>04. My Project</h>
+                <h3>04.1. My Project</h>
             </div>
 
 

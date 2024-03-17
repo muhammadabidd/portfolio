@@ -8,7 +8,7 @@
 <div class="courses-section section"  id="courses">
         <div class="content content-courses">
             <div class="sub">
-                <h3>06. Courses Completed</h>
+                <h3>04.3. Courses Completed</h>
             </div>
 
             <div class="flexbox-container flexbox-courses">
