@@ -76,7 +76,9 @@
                         <ul class="about_outside">
                             <ul class="about">
                                 <li>Python</li>
-                                <li>SQLite</li>
+                                <li>SQL(Postgre)</li>
+                                <li>Java</li>
+                                
                                 <li>Flask & Swagger-UI API</li>
                                 <li>HTML & CSS</li>
                                 <li>Roblox Studio</li>
@@ -87,6 +89,16 @@
 
 
                             <ul class="about_second">
+                                <li>Machine Learning</li>
+                                <li>Neural Network</li>
+                                <li>Pandas</li>
+                                <li>Numpy</li>
+                                <li>Scipy</li>
+                                <li>Matplotlib</li>
+                                <li>Seaborn</li>
+                            </ul>
+
+                            <ul class="about_third">
                                 <li>Wordpress</li>
                                 <li>Git & Github</li>
                                 <li>Notion & Miro</li>

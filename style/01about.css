@@ -25,6 +25,17 @@ ul.about_second{
     margin-top: 20px;
 }
 
+ul.about_third{
+    color : #8892B0;
+    font-family: 'SF Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 175%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
 ul.about_outside {
     display: flex;
 }
