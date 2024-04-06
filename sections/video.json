@@ -1,4 +1,12 @@
-[
+[    {
+    "id" : 19,
+    "title" : "Developing Daily Quotes App (1)",
+    "released" : "06 Apr 2024",
+    "tag" : "Thunkable, English, Native, USA",
+    "link" : "https://youtu.be/kETVGA_4ip4",
+    "img" : ""
+
+},
     {
         "id" : 1,
         "title": "Learning Numpy 1 : A Beginner Guide (with Ryan)",
@@ -94,13 +102,54 @@
         "tag" : "Python, Data Visualization, Data Manipulation, Seaborn",
         "link" : "https://youtu.be/iH_NiFIv-7I", 
         "img" : ""
+    },
+    {
+        "id" : 13,
+        "title" : "Machine Learning - Predicting Cars Price (1) with Ryan",
+        "released" : "31 Mar 2024",
+        "tag" : "Python, Data Visualization, Data Manipulation, Machine Learning, Linear Regression",
+        "link" : "https://youtu.be/ZdFuLBF8rYU?si=NdKLsqf4Kc34wYTN",
+        "img" : ""
+
+    },
+    {
+        "id" : 14,
+        "title" : "Machine Learning - Predicting Cars Price (2) with Ryan",
+        "released" : "31 Mar 2024",
+        "tag" : "Python, Data Visualization, Data Manipulation, Machine Learning, Linear Regression",
+        "link" : "https://youtu.be/33JQak4Zekk",
+        "img" : ""
+
+    },
+    {
+        "id" : 15,
+        "title" : "Machine Learning - Predicting Cars Price (3) with Ryan",
+        "released" : "31 Mar 2024",
+        "tag" : "Python, Data Visualization, Data Manipulation, Machine Learning, Linear Regression",
+        "link" : "https://youtu.be/jjV4YHP2fhE",
+        "img" : ""
+
+    },
+    {
+        "id" : 16,
+        "title" : "Machine Learning - Regression 1 (With Ryan)",
+        "released" : "22 Mar 2024",
+        "tag" : "Python, Data Visualization, Data Manipulation, Machine Learning, Linear Regression",
+        "link" : "https://youtu.be/KkGU70dqn-E",
+        "img" : ""
+
+    },
+    {
+        "id" : 17,
+        "title" : "Machine Learning - Regression 2 (With Ryan)",
+        "released" : "25 Mar 2024",
+        "tag" : "Python, Data Visualization, Data Manipulation, Machine Learning, Linear Regression",
+        "link" : "https://youtu.be/7GFVF-db5RM",
+        "img" : ""
+
     }
-    
-    
-    
 
-
-
+    
 
 
 ]

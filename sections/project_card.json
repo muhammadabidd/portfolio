@@ -18,6 +18,18 @@
      {"title":"Platformer Game",
      "desc":"Platformer game build using Scratch utilizing gravity machine",
      "link":"https://scratch.mit.edu/projects/908247055",
-     "tags":["Scratch", "", "Game Dev"]}
+     "tags":["Scratch", "", "Game Dev"]}, 
+
+     {"title":"Money Tracker Dashboard",
+     "desc":"Complete Dashboard to track money spending and acquiring",
+     "link":"https://docs.google.com/spreadsheets/d/1pIm7boMa3OS-kTbN0fARoXdkTCD4xMjWz6lH8c4835k/edit?usp=sharing",
+     "tags":["Data Analytic", "", "Dashboard"]},
+
+     {"title":"Snake Game",
+     "desc":"Classic Snake Game, Developed by Pygame",
+     "link":"https://github.com/muhammadabidd/Brightchamps/blob/b14ef23fbf23d8152a0300de704e68af3a604e70/Senior%20Champs/10%20Snake%20Game/snake.py#L27",
+     "tags":["Python", "Pygame", "Game Dev"]}
 
 ]
+
+
