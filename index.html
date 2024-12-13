@@ -50,11 +50,11 @@
         <div class="content content-hero">
             <p class="text-pendek1">Hi, My name is</p>
             <h1 class="">Muhammad Abid;</h1>
-            <h2 class=""> I Love to learn, teach, and inspect data</h2>
+            <h2 class=""> Data Analyst | Software Developer | Programming Teacher</h2>
 
             <div class="text-hero">
                 <p class="text-panjang hero-text">
-                    A <span class="green">coding educator</span> with a strong interest for <span class="green">artificial intelligence (AI)</span>. While my main focus is on teaching coding, I am deeply interested in exploring the potential and applications of AI and machine learning.
+                Certified data analyst, specializing in Python, machine learning, and libraries like Pandas, NumPy, and TensorFlow. I apply my skills to build data-driven solutions, such as my wallet budgeting app and money management dashboard. With a passion for software development, I combine data analysis with programming in C++, Java, and game development platforms like Scratch and Roblox Studio. I also enjoy teaching and helping others learn about data analytics and software development.
                 </p>
             </div>
 
@@ -71,7 +71,11 @@
                 <div class="pemerataan">
                     <div class="left-about">
                         <p class="text-panjang text-about">
-                            Hello, I'm Abid, a passionate educator with a Bachelor's degree in <span class="green">Mathematics Education</span>. I have a strong affinity for both teaching and mathematics. Throughout my career, I have taught at various schools, including <span class="green">Sekolah Indonesia Jeddah</span> in Saudi Arabia, and currently teach coding at <span class="green"></span>Brightchamps. Additionally, I have created mathematics learning videos for <span class="green">Roboguru</span>, which is a part of <span class="green">Ruangguru</span>. I am continuously expanding my knowledge in <span class="green">AI</span> and <span class="green">machine learning</span> fields and exploring new technologies to enhance my teaching approach.
+                            Hello, I'm Abid, a certified data analyst, with a focus on using Python, machine learning, and a variety of related libraries to analyze and visualize data. My expertise extends to libraries such as Pandas, NumPy, Scikit-learn, TensorFlow, Seaborn, and Matplotlib, which I apply to build data-driven solutions like my wallet budgeting app and money management dashboard. 
+
+                            While my primary focus is data analysis, I’m also passionate about software development. I enjoy combining my data skills with programming to create functional applications. My complementary knowledge includes game development with Scratch and Roblox Studio, as well as strong proficiency in C++ and Java, enabling me to develop diverse projects and deliver innovative solutions.
+
+                            In addition to my technical skills, I love helping others learn about data analytics and software development. Sharing my knowledge and helping others grow in these fields is one of the most rewarding aspects of what I do.
                         </p>
                         <ul class="about_outside">
                             <ul class="about">
@@ -98,12 +102,12 @@
                                 <li>Seaborn</li>
                             </ul>
 
-                            <ul class="about_third">
+                            <!-- <ul class="about_third">
                                 <li>Wordpress</li>
                                 <li>Git & Github</li>
-                                <li>Notion & Miro</li>
-                                <li>Visual Studio Code</li>
-                            </ul>
+                         
+            
+                            </ul> -->
                         </ul>
                     </div>
                     <img class="potrait" src="img/Me.png" alt="">
